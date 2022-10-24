@@ -1,0 +1,48 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_LEFT_RIGHT()
+!$f = 'Финиш'
+
+!procedure Entry($key=0, $max='—')
+    WithoutPropertyHeader()
+    AddProperty('Критический путь', $max)
+    System($key, $key)
+!endprocedure
+
+!procedure Relation($from=0, $to=0, $value='—', $es='—', $lf='—')
+    !if ($es == '—')
+    !$es = $value
+    !endif
+
+    !$ef = $es + $value
+    !$ls = $lf - $value
+
+    !$float = $lf - $ef
+
+    WithoutPropertyHeader()
+    AddProperty('Ранний старт', $es)
+    AddProperty('Ранний финиш', $ef)
+    AddProperty('Поздний старт', $ls)
+    AddProperty('Поздний финиш', $lf)
+    AddProperty('Временной резерв', $float)
+    Container($from, $from \n $value \n)
+
+    Rel($from, $to, $ef)
+!endprocedure
+
+!$cp = 107
+Entry($f, $cp)
+
+Relation(D, $f, 30, 75, $cp)
+Relation(F, $f, 22, 85, $cp)
+
+Relation(E, F, 10, 75, 85)
+Relation(C, D, 35, 40, 75)
+Relation(C, E, 35, 40, 75)
+
+Relation(B, D, 25, 0, 77)
+Relation(A, C, 40, 0, 40)
+
+SHOW_FLOATING_LEGEND()
+@enduml
