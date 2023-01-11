@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="659.7px" preserveAspectRatio="none" style="width:943px;height:659px;background:#FFFFFF;" version="1.1" viewBox="0 0 943 659" width="943.2px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="7.6922" id="_title" style="stroke:none;stroke-width:0.3;" width="111.6" x="413.775" y="1.5"/><text fill="#000000" font-family="sans-serif" font-size="4.2" font-weight="bold" lengthAdjust="spacing" textLength="108.6" x="415.275" y="6.8021">Диаграмма контейнеров системы "GameGenBulb"</text><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><g id="cluster_c1"><rect fill="none" height="444.6" rx="0.75" ry="0.75" style="stroke:#444444;stroke-width:0.3;stroke-dasharray:7.0,7.0;" width="739.2" x="61.5" y="85.0922"/><text fill="#444444" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="47.1" x="407.55" y="90.0375">Серверная система</text><text fill="#444444" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="15.3" x="423.45" y="94.3137">[System]</text></g><!--MD5=[7b30460008fc71f9986330c33ee2d290]
+entity gateway--><g id="elem_gateway"><rect fill="#438DD5" height="53.2453" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="56.4" x="306.3" y="100.5422"/><image height="14.4" width="14.4" x="327.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="103.5422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="23.1" x="322.95" y="122.2875">API-шлюз</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="309.3" y="126.5637">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="333.9" y="131.1287"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="30.3" x="319.35" y="135.8209">Предоставляет</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="38.1" x="314.85" y="140.5131">функциональность</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="47.4" x="310.2" y="145.2053">микросервисов сервера</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="50.1" x="309.45" y="149.8975">клиенту посредством API</text></g><!--MD5=[4d2c1095686cc4272d4556037dedae14]
+entity accounts--><g id="elem_accounts"><rect fill="#438DD5" height="53.9156" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="62.1" x="654.75" y="368.8922"/><image height="14.4" width="14.4" x="678.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="371.8922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="670.65" y="390.6375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="42.9" x="664.35" y="396">аутентификацией</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="660.6" y="400.2762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="685.2" y="404.8412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.7" x="658.95" y="409.5334">Микросервис по обработке</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="33.3" x="668.55" y="414.2256">аутентификации</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51" x="660.3" y="418.9178">пользователей в системе</text></g><!--MD5=[fc9c32964210abfdac0bb618f4cf02d0]
+entity accounts_db--><g id="elem_accounts_db"><path d="M658.35,465.0422 C658.35,462.0422 685.8,462.0422 685.8,462.0422 C685.8,462.0422 713.25,462.0422 713.25,465.0422 L713.25,514.9875 C713.25,517.9875 685.8,517.9875 685.8,517.9875 C685.8,517.9875 658.35,517.9875 658.35,514.9875 L658.35,465.0422 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M658.35,465.0422 C658.35,468.0422 685.8,468.0422 685.8,468.0422 C685.8,468.0422 713.25,468.0422 713.25,465.0422 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="678.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="469.2422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="32.4" x="669.6" y="487.9875">БД аккаунтов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="661.35" y="492.2637">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="685.2" y="496.8287"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="40.8" x="665.4" y="501.5209">Хранение данных об</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="39.3" x="665.55" y="506.2131">аккаунтах и сессиях</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="30" x="670.8" y="510.9053">пользователей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="685.2" y="515.5975"> </text></g><!--MD5=[d2097561727c6d3072e4a5e40536f297]
+entity roles--><g id="elem_roles"><rect fill="#438DD5" height="53.9156" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="61.8" x="734.1" y="276.7922"/><image height="14.4" width="14.4" x="757.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="279.7922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="749.85" y="298.5375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="35.7" x="747.15" y="303.9">разрешениями</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="739.8" y="308.1762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="764.4" y="312.7412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="31.8" x="749.1" y="317.4334">Микросервис по</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.6" x="737.1" y="322.1256">отслеживанию разрешений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51" x="739.5" y="326.8178">пользователей в системе</text></g><!--MD5=[3793b29af14a7757f4199fa92954da73]
+entity roles_db--><g id="elem_roles_db"><path d="M727.35,373.2422 C727.35,370.2422 759.3,370.2422 759.3,370.2422 C759.3,370.2422 791.25,370.2422 791.25,373.2422 L791.25,418.4953 C791.25,421.4953 759.3,421.4953 759.3,421.4953 C759.3,421.4953 727.35,421.4953 727.35,418.4953 L727.35,373.2422 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M727.35,373.2422 C727.35,376.2422 759.3,376.2422 759.3,376.2422 C759.3,376.2422 791.25,376.2422 791.25,373.2422 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="752.1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="377.4422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="37.8" x="740.4" y="396.1875">БД разрешений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="734.85" y="400.4637">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="758.7" y="405.0287"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.5" x="731.55" y="409.7209">Хранение данных выданных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="56.1" x="731.25" y="414.4131">пользователям разрешений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="758.7" y="419.1053"> </text></g><!--MD5=[e3ea1f061b642fd11a152ff731067fc0]
+entity notifs--><g id="elem_notifs"><rect fill="#438DD5" height="53.9156" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.4" x="190.8" y="100.0922"/><image height="14.4" width="14.4" x="216.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="103.0922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="208.35" y="121.8375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="38.4" x="204.3" y="127.2">уведомлениями</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="198.3" y="131.4762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="222.9" y="136.0412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.6" x="196.2" y="140.7334">Микросервис по отправке и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="59.4" x="193.8" y="145.4256">подтверждению уведомлений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="199.35" y="150.1178">пользователей системы</text></g><!--MD5=[73a917dd17d46000c0269ba3df164830]
+entity notifs_db--><g id="elem_notifs_db"><path d="M74.7,104.4422 C74.7,101.4422 106.8,101.4422 106.8,101.4422 C106.8,101.4422 138.9,101.4422 138.9,104.4422 L138.9,149.6953 C138.9,152.6953 106.8,152.6953 106.8,152.6953 C106.8,152.6953 74.7,152.6953 74.7,149.6953 L74.7,104.4422 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M74.7,104.4422 C74.7,107.4422 106.8,107.4422 106.8,107.4422 C106.8,107.4422 138.9,107.4422 138.9,104.4422 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="99.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="108.6422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="40.5" x="86.55" y="127.3875">БД уведомлений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="82.35" y="131.6637">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="106.2" y="136.2287"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.5" x="79.05" y="140.9209">Хранение данных выданных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="58.2" x="77.7" y="145.6131">пользователям уведомлений</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="106.2" y="150.3053"> </text></g><!--MD5=[525016939bbb2f5a4278a8749bc677e0]
+entity fast_cards--><g id="elem_fast_cards"><rect fill="#438DD5" height="58.6078" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.4" x="66.3" y="183.1922"/><image height="14.4" width="14.4" x="91.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="186.1922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="83.85" y="204.9375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="59.4" x="69.3" y="210.3">''быстрыми'' карточками</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="73.8" y="214.5762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="98.4" y="219.1412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="31.8" x="83.1" y="223.8334">Микросервис по</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.2" x="70.8" y="228.5256">предоставлению ''быстрых''</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="40.2" x="78.3" y="233.2178">карточек по запросу</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="74.85" y="237.91">пользователей системы</text></g><!--MD5=[610860cde00091b931972728d83a00e8]
+entity fast_cards_db--><g id="elem_fast_cards_db"><path d="M66.45,276.4922 C66.45,273.4922 98.7,273.4922 98.7,273.4922 C98.7,273.4922 130.95,273.4922 130.95,276.4922 L130.95,331.1297 C130.95,334.1297 98.7,334.1297 98.7,334.1297 C98.7,334.1297 66.45,334.1297 66.45,331.1297 L66.45,276.4922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M66.45,276.4922 C66.45,279.4922 98.7,279.4922 98.7,279.4922 C98.7,279.4922 130.95,279.4922 130.95,276.4922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="91.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="280.6922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="57.6" x="69.9" y="299.4375">БД ''быстрых'' карточек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="74.25" y="303.7137">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="98.1" y="308.2787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54" x="71.7" y="312.9709">Хранение данных о выдаче</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="39" x="78.6" y="317.6631">''быстрых'' карточек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.7" x="71.25" y="322.3553">пользователям системы, а</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="58.5" x="69.45" y="327.0475">также данных самих карточек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="98.1" y="331.7396"> </text></g><!--MD5=[82f23cda116f7491e2ad662b9686858a]
+entity files--><g id="elem_files"><rect fill="#438DD5" height="48.5531" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="62.1" x="378.75" y="279.4922"/><image height="14.4" width="14.4" x="402.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="282.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="52.2" x="383.7" y="301.2375">Управление файлами</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="384.6" y="305.5137">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="409.2" y="310.0787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.7" x="382.95" y="314.7709">Микросервис по обработке</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.9" x="390.75" y="319.4631">различных файлов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="385.65" y="324.1553">пользователей системы</text></g><!--MD5=[23590178da498e896e34fadce9a00d43]
+entity files_db--><g id="elem_files_db"><path d="M378.9,370.9922 C378.9,367.9922 409.8,367.9922 409.8,367.9922 C409.8,367.9922 440.7,367.9922 440.7,370.9922 L440.7,420.9375 C440.7,423.9375 409.8,423.9375 409.8,423.9375 C409.8,423.9375 378.9,423.9375 378.9,420.9375 L378.9,370.9922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M378.9,370.9922 C378.9,373.9922 409.8,373.9922 409.8,373.9922 C409.8,373.9922 440.7,373.9922 440.7,370.9922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="402.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACKElEQVR4Xu2Yv0oDQRCH8273AHkBH8AX8AF8gFhZiZ2FhWW6VGInpLEQiSAEJBAQFBUUQdCPDByXmf1zt3drTrjhV+jmdvab2b2d3RsVk9teaWSbdqtmQPtnD4fTx5Or9fTm+XLxOl++L9YfaPXyJX/Qgvjp/PrpaLY6uFiOj++sn4AiQLiDgOEZ8qeFQUkYxGOHUPICERyBaset7e3zm+QF0uYA2ju9J/naU9dGwuzQDiCyqrtmM+YxDkRKdb+cZvO0BcTU6h6ZjWXaLyA7awPQtkWAkO6R2SJrCLEp6045ze7dGgjl2KCtsb9QDOzoDqBiUzeybtbMg696uIFE1BDqTsuyWjWWMEcAO1BV+i1jviy71Hzg8NiIjzTjkO3YOTs04lM1aiBxRErtclNPkj88IlhF8i8d+cl2qYqHZUlEXnu1D5EMInAGlyAomS/1xjQDqhpwdC7PgXi3M1s6kfyVZ0uS4avZ6UBhYzzfkGHLBZRsA1DMegcUL65pazPZIkfYooeH/OKvrkG2aHiBRH25KKoyJGW1/VWalDuv0rbF8ZYFDiv0p3RIQZhvviuUHxuq3xuqHxt8hVaOXHYZOYDEeJTcWEctBR/xlPluAFQacRAucDa9dYRPkiF13u4pKUDKcCrHLmYNUMJFjCdTSQuSr0d1ll0HQN3aABSz/wZUDFdpu5VooGK4StcCEu3+Ku2T1PzOr9JO1QKyGre7SgeUCJRPvQP6BZiUriFElEiTAAAAAElFTkSuQmCC" y="375.1922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="53.1" x="383.25" y="393.9375">Файловое хранилище</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="39.9" x="389.85" y="398.2137">[Ext4, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="409.2" y="402.7787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.6" x="391.5" y="407.4709">Хранение файлов,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51.6" x="383.4" y="412.1631">загружаемых системой по</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.8" x="381.9" y="416.8553">мере ее функционирования</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="409.2" y="421.5475"> </text></g><!--MD5=[700b4347daf908f562e1beb677eb8bd1]
+entity app_settings--><g id="elem_app_settings"><rect fill="#438DD5" height="63.9703" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="142.35" y="180.4922"/><image height="14.4" width="14.4" x="168" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="183.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="160.05" y="202.2375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="159" y="207.6">настройками</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30" x="160.2" y="212.9625">приложения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="150" y="217.2387">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="174.6" y="221.8037"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="146.55" y="226.4959">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51.3" x="148.95" y="231.1881">настройками приложения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="157.2" y="235.8803">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="151.05" y="240.5725">пользователей системы</text></g><!--MD5=[4e90c09ee5ab4338809e334135241efa]
+entity app_settings_db--><g id="elem_app_settings_db"><path d="M141.6,273.7922 C141.6,270.7922 172.8,270.7922 172.8,270.7922 C172.8,270.7922 204,270.7922 204,273.7922 L204,333.7922 C204,336.7922 172.8,336.7922 172.8,336.7922 C172.8,336.7922 141.6,336.7922 141.6,333.7922 L141.6,273.7922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M141.6,273.7922 C141.6,276.7922 172.8,276.7922 172.8,276.7922 C172.8,276.7922 204,276.7922 204,273.7922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="165.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="277.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30" x="157.2" y="296.7375">БД настроек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30" x="157.8" y="302.1">приложения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="148.35" y="306.3762">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="172.2" y="310.9412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54" x="145.8" y="315.6334">Хранение данных настроек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="24.3" x="160.05" y="320.3256">приложения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="154.8" y="325.0178">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="148.65" y="329.71">пользователей системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="172.2" y="334.4021"> </text></g><!--MD5=[26bef35a0be6f8c4b0fc36af58d3bbdd]
+entity user_settings--><g id="elem_user_settings"><rect fill="#438DD5" height="63.9703" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="529.05" y="180.4922"/><image height="14.4" width="14.4" x="554.7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="183.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="546.75" y="202.2375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="545.7" y="207.6">настройками</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="36.9" x="543.45" y="212.9625">пользователей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="536.7" y="217.2387">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="561.3" y="221.8037"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="533.25" y="226.4959">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="25.8" x="548.4" y="231.1881">настройками</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="543.9" y="235.8803">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="537.75" y="240.5725">пользователей системы</text></g><!--MD5=[9247520e518796076c9f05f233f96414]
+entity user_settings_db--><g id="elem_user_settings_db"><path d="M588.9,276.1922 C588.9,273.1922 620.1,273.1922 620.1,273.1922 C620.1,273.1922 651.3,273.1922 651.3,276.1922 L651.3,331.5 C651.3,334.5 620.1,334.5 620.1,334.5 C620.1,334.5 588.9,334.5 588.9,331.5 L588.9,276.1922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M588.9,276.1922 C588.9,279.1922 620.1,279.1922 620.1,279.1922 C620.1,279.1922 651.3,279.1922 651.3,276.1922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="612.9" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="280.3922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30" x="604.5" y="299.1375">БД настроек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="36.9" x="601.65" y="304.5">пользователей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="595.65" y="308.7762">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="619.5" y="313.3412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54" x="593.1" y="318.0334">Хранение данных настроек</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="602.1" y="322.7256">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="595.95" y="327.4178">пользователей системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="619.5" y="332.11"> </text></g><!--MD5=[c5d4d23ba570ce99d878eb7bbe0818a5]
+entity ideas--><g id="elem_ideas"><rect fill="#438DD5" height="53.9156" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="225.75" y="276.7922"/><image height="14.4" width="14.4" x="251.4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="279.7922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="243.45" y="298.5375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="58.2" x="229.5" y="303.9">видеоигровыми идеями</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="233.4" y="308.1762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="258" y="312.7412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="229.95" y="317.4334">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="47.1" x="234.45" y="322.1256">видеоигровыми идеями</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="234.45" y="326.8178">пользователей системы</text></g><!--MD5=[960dc3f4e9bf4bbc903e4dd02172f38d]
+entity ideas_db--><g id="elem_ideas_db"><path d="M258.15,366.1922 C258.15,363.1922 289.5,363.1922 289.5,363.1922 C289.5,363.1922 320.85,363.1922 320.85,366.1922 L320.85,425.5219 C320.85,428.5219 289.5,428.5219 289.5,428.5219 C289.5,428.5219 258.15,428.5219 258.15,425.5219 L258.15,366.1922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M258.15,366.1922 C258.15,369.1922 289.5,369.1922 289.5,369.1922 C289.5,369.1922 320.85,369.1922 320.85,366.1922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="282.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="370.3922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="56.7" x="261.15" y="389.1375">БД видеоигровых идей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="265.05" y="393.4137">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="288.9" y="397.9787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="38.4" x="270.3" y="402.6709">Хранение данных о</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="39.9" x="268.95" y="407.3631">видеоигровых идеях</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.1" x="262.35" y="412.0553">пользователей системы, а</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="50.1" x="263.85" y="416.7475">также об общих для идей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="32.7" x="273.15" y="421.4396">характеристиках</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="288.9" y="426.1318"> </text></g><!--MD5=[c20deec6c5e4968ccfe8542c49563417]
+entity idea_reports--><g id="elem_idea_reports"><rect fill="#438DD5" height="58.6078" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="301.65" y="183.1922"/><image height="14.4" width="14.4" x="327.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="186.1922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="53.4" x="307.2" y="204.9375">Управление анализом</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="48.6" x="310.2" y="210.3">видеоигровых идей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="309.3" y="214.5762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="333.9" y="219.1412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="305.85" y="223.8334">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="44.1" x="311.85" y="228.5256">отчетами об анализах</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="316.5" y="233.2178">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="38.1" x="315.45" y="237.91">видеоигровых идей</text></g><!--MD5=[5193bbd98235ff37f528a3bb60fb4514]
+entity idea_reports_db--><g id="elem_idea_reports_db"><path d="M302.1,273.7922 C302.1,270.7922 335.1,270.7922 335.1,270.7922 C335.1,270.7922 368.1,270.7922 368.1,273.7922 L368.1,333.7922 C368.1,336.7922 335.1,336.7922 335.1,336.7922 C335.1,336.7922 302.1,336.7922 302.1,333.7922 L302.1,273.7922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M302.1,273.7922 C302.1,276.7922 335.1,276.7922 335.1,276.7922 C335.1,276.7922 368.1,276.7922 368.1,273.7922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="327.9" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="277.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30.9" x="319.05" y="296.7375">БД анализов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="48.6" x="310.8" y="302.1">видеоигровых идей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="310.65" y="306.3762">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="334.5" y="310.9412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.6" x="306.3" y="315.6334">Хранение данных отчетов об</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="52.2" x="308.4" y="320.3256">анализе соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.5" x="306.75" y="325.0178">видеоигровых идей, а также</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="306.45" y="329.71">об общих критериев анализа</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="334.5" y="334.4021"> </text></g><!--MD5=[2bc6f37dbca3fb98924af5bef6e66d29]
+entity session_results--><g id="elem_session_results"><rect fill="#438DD5" height="63.3" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="387.45" y="180.7922"/><image height="14.4" width="14.4" x="413.1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="183.7922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="405.15" y="202.5375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="51.3" x="394.65" y="207.9">результатами сессий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="395.1" y="212.1762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="419.7" y="216.7412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="391.65" y="221.4334">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="55.2" x="392.1" y="226.1256">результатами проведенных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.6" x="401.4" y="230.8178">сессий с участием</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="402.3" y="235.51">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="396.15" y="240.2021">пользователей системы</text></g><!--MD5=[79245ba3b2e3ef1dc0be88a8017c6f59]
+entity session_results_db--><g id="elem_session_results_db"><path d="M451.5,274.0922 C451.5,271.0922 482.7,271.0922 482.7,271.0922 C482.7,271.0922 513.9,271.0922 513.9,274.0922 L513.9,333.4219 C513.9,336.4219 482.7,336.4219 482.7,336.4219 C482.7,336.4219 451.5,336.4219 451.5,333.4219 L451.5,274.0922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M451.5,274.0922 C451.5,277.0922 482.7,277.0922 482.7,277.0922 C482.7,277.0922 513.9,277.0922 513.9,274.0922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="475.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="278.2922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="56.4" x="454.5" y="297.0375">БД результатов сессий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="458.25" y="301.3137">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="482.1" y="305.8787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="465.3" y="310.5709">Хранение данных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51.9" x="456.15" y="315.2631">результатов проведенных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.6" x="463.8" y="319.9553">сессий с участием</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="464.7" y="324.6475">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="458.55" y="329.3396">пользователей системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="482.1" y="334.0318"> </text></g><!--MD5=[853f148258f3492b777f181caf578766]
+entity sessions--><g id="elem_sessions"><rect fill="#438DD5" height="58.6078" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="66" x="659.7" y="183.1922"/><image height="14.4" width="14.4" x="685.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="186.1922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="677.55" y="204.9375">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="50.4" x="667.5" y="210.3">проведением сессий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="667.5" y="214.5762">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="692.1" y="219.1412"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.6" x="663.9" y="223.8334">Микросервис по проведению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="58.5" x="662.85" y="228.5256">различных сессий с участием</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.8" x="674.7" y="233.2178">соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="668.55" y="237.91">пользователей системы</text></g><!--MD5=[24d8d3e95407af65a97c05efb0b6ec36]
+entity sessions_db--><g id="elem_sessions_db"><path d="M661.8,276.4922 C661.8,273.4922 692.7,273.4922 692.7,273.4922 C692.7,273.4922 723.6,273.4922 723.6,276.4922 L723.6,331.1297 C723.6,334.1297 692.7,334.1297 692.7,334.1297 C692.7,334.1297 661.8,334.1297 661.8,331.1297 L661.8,276.4922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M661.8,276.4922 C661.8,279.4922 692.7,279.4922 692.7,279.4922 C692.7,279.4922 723.6,279.4922 723.6,276.4922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="685.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="280.6922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="55.2" x="665.1" y="299.4375">БД проведения сессий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="668.25" y="303.7137">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="692.1" y="308.2787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="38.4" x="673.5" y="312.9709">Хранение данных о</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="44.1" x="670.05" y="317.6631">проводимых сессиях с</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.6" x="664.8" y="322.3553">участием соответствующих</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.3" x="668.55" y="327.0475">пользователей системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="692.1" y="331.7396"> </text></g><!--MD5=[bd279dc15ec8cc25864051982acdc86f]
+entity games--><g id="elem_games"><rect fill="#438DD5" height="58.6078" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="181.95" y="366.6422"/><image height="14.4" width="14.4" x="207.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="369.6422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="199.65" y="388.3875">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="198.9" y="393.75">видеоиграми</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="189.6" y="398.0262">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="214.2" y="402.5912"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="186.15" y="407.2834">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="43.2" x="192.6" y="411.9756">видеоиграми, а также</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="43.5" x="192.45" y="416.6678">общими для видеоигр</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.3" x="196.65" y="421.36">характеристиками</text></g><!--MD5=[698774685ae9c5d3141287d6e8b9cbe6]
+entity games_db--><g id="elem_games_db"><path d="M109.35,457.9922 C109.35,454.9922 140.4,454.9922 140.4,454.9922 C140.4,454.9922 171.45,454.9922 171.45,457.9922 L171.45,522.0141 C171.45,525.0141 140.4,525.0141 140.4,525.0141 C140.4,525.0141 109.35,525.0141 109.35,522.0141 L109.35,457.9922 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.15;"/><path d="M109.35,457.9922 C109.35,460.9922 140.4,460.9922 140.4,460.9922 C140.4,460.9922 171.45,460.9922 171.45,457.9922 " fill="none" style="stroke:#3C7FC0;stroke-width:0.15;"/><image height="14.4" width="14.4" x="133.2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2YMUoEQRBF9251AC/gAbyAB/AAGhmJmYGB4WZGYiaYGIisICzIwsKCooIiCFpMs0tTZc/W/92DG/j5Uc9M16Onpqp7RrJ/u1Ee+aG/dRugvfHj9vG9HyfcAGjr8G72/Hk9ffOXCNcCKc1k/v7dSdfJ34C6CiitTaJJ2jl58LdBrgIyNKrXj6/KZOKBxjdPhiZJmXTl/P1Bk0AH5zMLkkmzyj8SNAOkC2ARnI4u5/7BiBmg0ssy4pIJBtIwNnJBXGWCgS4mLzZyWUQVwIAi2ZOLWCQMqP/j+lVoJmFAqy4R1+nVws/TYwzIRgtIq7mfp8cA0O7Z1EaLCXprAJAuvg0Vk2aen61kAAj64HPpg362kgEgIqOToNYGAGkbt6Fi0gf9bCUDQDYOIj9byf9A6wwA+Q1rUEPl0MZ9ZXRhHKoO0a1jqEotbF4P1cskvJvONWC3V+uW1AZcJ/T4gQGpdVdqY/YKPTTCQNAiodtFIYAknEncmZoBkljV5v7OkEBrXxxUDHOTQNL9xrMUSxHHsZV5ICkc06DO5V0FJI5JaYhEzl0LJF2PS7tbOm9yNwCS5YEE6lkltwFKL86PE24DlHYmfpxwG6BUlvw44TZA6beaHyfcBki6f1l+kHAzoFb+ASV5pFbVj/S9AAAAAElFTkSuQmCC" y="462.1922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="30.9" x="124.95" y="480.9375">БД видеоигр</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="48.9" x="115.95" y="485.2137">[MongoDB, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="139.8" y="489.7787"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="38.4" x="121.2" y="494.4709">Хранение данных о</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="45.9" x="116.85" y="499.1631">видеоиграх, собранных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="43.8" x="117.9" y="503.8553">парсерами системы и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.9" x="112.35" y="508.5475">сторонними API, а также об</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="39.9" x="119.85" y="513.2396">общих для видеоигр</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="32.7" x="124.05" y="517.9318">характеристиках</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="139.8" y="522.624"> </text></g><!--MD5=[c2de35a5f955f7e7adf8d8d96d584d58]
+entity apis--><g id="elem_apis"><rect fill="#438DD5" height="54.5859" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="181.95" y="462.6422"/><image height="14.4" width="14.4" x="207.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="465.6422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="199.65" y="484.3875">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="43.2" x="192.6" y="489.75">общедоступными</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="38.4" x="195.6" y="495.1125">сторонними API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="189.6" y="499.3887">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="214.2" y="503.9537"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="186.15" y="508.6459">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="58.8" x="185.4" y="513.3381">обращением к сторонним API</text></g><!--MD5=[9efee3c152ab1794ab9fc8f840dbf2bf]
+entity parsers--><g id="elem_parsers"><rect fill="#438DD5" height="59.2781" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="65.7" x="505.65" y="460.2422"/><image height="14.4" width="14.4" x="531.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABk0lEQVR4Xs3XP0oDQRTH8b3bHMALeAAv4AE8gKmsgp1FCst0KdMJNhYiCkJAFhaECAoJgqAv/mRZZ2Zn5r35t19eEV4x8ymyJNt8R7e4eT293uhbUXRUo++YpdWo8/so0HzdnS1f9K0oaKJAOTRyUCaNEJRPIwHNVm0+DRtEGhp9K8qq4YEKaBigMppQUDFNEIi+wsU0fhBp6CHXt6JCNB5QeY0LVEUzCqIf8CoaO4g0dIq+FcXVWEB1NUoDVdeoIWgKGtWDJqJRAJ1cPS/vtvrBoiI1NM2kNDTNpDTKfOxlpdKoJKDF76vZ7ebDPF0wsSBo8Pmx25kXcCcKNNQgMh1dPJjXhI8cZGpQpEkIGtOg9u1TbJKA3BokNrFBIRokM/FA4Rr0vv86vnwyb3UMA8TVIK4pFCTTIJYpCBSjQeEmPyheg8hE/yxMAQ+UStPnNblAyTWIzjQdflAmDXKY7KCsGjRmsoAKaBC9rftBxTTINP0DFdag2aq1g6po0ND0B6qoQb3pAKquQfN1dwBNRIPI9APWAIlWGU/R5QAAAABJRU5ErkJggg==" y="463.2422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="29.1" x="523.35" y="481.9875">Управление</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="36" x="519.9" y="487.35">собственными</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="48.3" x="514.35" y="492.7125">парсерами системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="513.3" y="496.9887">[Kotlin, Ktor, Docker Container]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="537.9" y="501.5537"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.3" x="509.85" y="506.2459">Микросервис по управлению</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="47.7" x="514.05" y="510.9381">парсингом web-страниц</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="35.7" x="520.65" y="515.6303">сторонних систем</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><rect fill="#08427B" height="38.9391" rx="0.75" ry="0.75" style="stroke:#073B6F;stroke-width:0.15;" width="61.2" x="188.4" y="18.4922"/><image height="13.5" width="14.4" x="211.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAtCAIAAABnKH+VAAAB5klEQVR4XtWYPU7EMBCFt/QROAJXoKWj4QBwACRquq0Q5UJJgxAlNEgUNDSW2BbRUXIZntYisvb559mTZEH6iiixx5/tycS7C3e4/FMs+NZuaRPaO746v3m5f/14fv8KrB7XJ5dP3LKbBqGjiwcY+M9vBor7p9fcpQNVCMuQswng6ShOkhBGYgMGTty3FUmovDYxSCnu3kRdCKnDA+eAOhKfg+jUhZZ3bzxwAUyAg+jUhfT9Chh3rS7EQ5YxpvY/FGrdMhRJDqJTF0JO8KgF8G3hIDp1IdRoHjWHvV7XhVBXeOAcxgRyipCTa6N9eZwo5LRMGuUcogq5TcnOvXG4P4qNaxICB2e34XQWq2Dx7Ds10CY0AANg/I4mKQlhPTB7LIn+vcTGob1lzdJCCIegw9bgAglUXg88jc8FcRdMLJd8cXs0c0khlNpkf9zEI3SLzXCNO4UuTq4a4bXYFlJe70DSgNsMQohcwCeFxKnoDELhooBPCimTbsIkJP60aMIkNPp+eaNQ62FewSSEgsYRjZiERs9obxGaIqO9RQjVlsPZ6Rea4hXzFqGmk7xOvxC+jhzOTr/QFEXIW4TC6WcKOoUmJQiFU2+OuYV4N5mdCa1+/0DaStydCeWYT8htykqVcFSfSUjnB2PWtF7YFhVqAAAAAElFTkSuQmCC" y="21.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="34.8" x="201.6" y="39.3375">Пользователь</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="218.4" y="44.1568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="52.8" x="192.6" y="48.849">Пользователь мобильного</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="24.3" x="206.85" y="53.5412">приложения</text></g><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
+entity mobile--><g id="elem_mobile"><rect fill="#1168BD" height="49.8938" rx="0.75" ry="0.75" style="stroke:#3C7FC0;stroke-width:0.15;" width="66" x="304.5" y="13.0922"/><image height="14.4" width="14.4" x="330.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB3ElEQVR4Xu2WMU4DMRBFc4W9AUfgCByBI1BSImoKKlqoaWiooaVBCCQahKBACgUFKWhAQggJUdCYpzg4ux57Z+PsZoPkr68osrOTZ894vINi83ypPJBD/ToDac5AmjOQ5n8FtHX8+Pz2LceTvXH4oAasA1rbuzHG7J+N5FSaP75+7kefcrzsOiB8evsK08r2pZya1SyMUKs713KqbAUIFKKAJadmMhzEObp6kVOeFaDib2WkT04VY2L+jFnMl9heXgzfG+60DlRUc09QapO1Up4mJH7M3++ePLk1rB/cMc6IjCzdCAgCM65uW1LNBTQcfKqHy7kRkD1u86h5FepAZMcPnyQ2idzJ+J7rgCgXSscPPJ/USooCkSbK04/XhuoPfxiIA9wRjVUNUwCITHVKYxW7kQJAtoktQMEa94EoOv+5saCMdUJVsWfJg+zdFSB7c0nRGO0PEjbP9evggZXFVAGKtRy3Dt6Q/DlNLri9E6W8+38KFNseU2oewVXWy+4uwYNZM2KTpkCx6rEiXPLRi6E4hYHUx7qTq9EpkH2B6kvlq3cClFCtLYpi8IFi52thcgd5ApTQYNqVa1cTIMqKrPVo1438q6N3ZyDNGUhzBtKcgTRnIM0ZSPPSAf0CT9l3geKPh04AAAAASUVORK5CYII=" y="16.0922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="58.8" x="307.5" y="34.8375">Мобильное приложение</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="36.6" x="319.2" y="40.2">для ОС Android</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="336.9" y="45.0193"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="45.3" x="314.85" y="49.7115">Интерфейс, с которым</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.2" x="319.8" y="54.4037">взаимодействует</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="27.6" x="323.7" y="59.0959">пользователь</text></g><!--MD5=[6dc03edfcc7b306ee736a880abb0a1d3]
+entity epic--><g id="elem_epic"><rect fill="#999999" height="39.8391" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="58.5" x="367.65" y="560.2922"/><image height="14.4" width="14.4" x="389.7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2XrbKDMBBG+/5vEFWHw+Gq6nA4HKqurg7X+w1Jt8sXkuVm6P2ZyVGdJCQnu5tAT+6PceKG36YKWVQhiypkUYUsqpDF/xE6n8/X6/V2uz0ej+cRzPN8v9+HYWjblhdTbAv1fc/zHQr2mdJiIQQG++AJPgMyQKs7EoLNUQnaCVKhBRwJpWIDS1QAtxYRz9N1nXZ4CyGANNQjm0A9ct93gIqsradCuzg4LRS7ey6Xix+QMt4JVYzOhu4KQnBXz644SqhpGlnVrYMEOWkPQuM4qmdXHCUk83hw8nUvzpNvD0LUjbXbFzIUP6Sx4KLCyZAgxXuTaykI0fnyjRkgp8fvBwttFqvEr1AIe9XjM6AYEI9MSXjkAAahaZp0N/zGFxJMPCONqRuL0HUTp0kj2QxCmZooLmq6YFz6ZnmqnAShTAqKhVDFsownJYT8yJj3xUgHTSgWeq5fC5mrTqrCaSG08sAFiHYLO+uGwAWIZzOvHcwvDo5erplK+hBIotxzHv4eMs+nZlyONLH/AwY29D5xsZDbXSv0KhCw41Q5alAAFBvPhpBbJs2ECl2bc2kyNYcQpjbjUkIC5kVhwQBViR/0MWXi/yngWT8Dfsc5Igyhn6cKWVQhiypkUYUsqpBFFbL4AvLxV6h49uN2AAAAAElFTkSuQmCC" y="563.2922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="40.8" x="376.5" y="582.0375">Epic Games Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="396.3" y="586.8568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="50.1" x="371.85" y="591.549">Платформа дистрибуции</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.9" x="378.45" y="596.2412">компьютерных игр</text></g><!--MD5=[4b7da8b51e28fcd0aa1a0712c2dfcd65]
+entity steam--><g id="elem_steam"><rect fill="#999999" height="39.8391" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="58.5" x="436.65" y="560.2922"/><image height="14.4" width="14.4" x="458.7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2XrbKDMBBG+/5vEFWHw+Gq6nA4HKqurg7X+w1Jt8sXkuVm6P2ZyVGdJCQnu5tAT+6PceKG36YKWVQhiypkUYUsqpDF/xE6n8/X6/V2uz0ej+cRzPN8v9+HYWjblhdTbAv1fc/zHQr2mdJiIQQG++AJPgMyQKs7EoLNUQnaCVKhBRwJpWIDS1QAtxYRz9N1nXZ4CyGANNQjm0A9ct93gIqsradCuzg4LRS7ey6Xix+QMt4JVYzOhu4KQnBXz644SqhpGlnVrYMEOWkPQuM4qmdXHCUk83hw8nUvzpNvD0LUjbXbFzIUP6Sx4KLCyZAgxXuTaykI0fnyjRkgp8fvBwttFqvEr1AIe9XjM6AYEI9MSXjkAAahaZp0N/zGFxJMPCONqRuL0HUTp0kj2QxCmZooLmq6YFz6ZnmqnAShTAqKhVDFsownJYT8yJj3xUgHTSgWeq5fC5mrTqrCaSG08sAFiHYLO+uGwAWIZzOvHcwvDo5erplK+hBIotxzHv4eMs+nZlyONLH/AwY29D5xsZDbXSv0KhCw41Q5alAAFBvPhpBbJs2ECl2bc2kyNYcQpjbjUkIC5kVhwQBViR/0MWXi/yngWT8Dfsc5Igyhn6cKWVQhiypkUYUsqpBFFbL4AvLxV6h49uN2AAAAAElFTkSuQmCC" y="563.2922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="14.4" x="458.7" y="582.0375">Steam</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="465.3" y="586.8568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="50.1" x="440.85" y="591.549">Платформа дистрибуции</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="36.9" x="447.45" y="596.2412">компьютерных игр</text></g><!--MD5=[8b03baec7378effdbf4fdd2376ac63f1]
+entity itch--><g id="elem_itch"><rect fill="#999999" height="39.8391" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="65.4" x="505.8" y="560.2922"/><image height="14.4" width="14.4" x="531.3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2XrbKDMBBG+/5vEFWHw+Gq6nA4HKqurg7X+w1Jt8sXkuVm6P2ZyVGdJCQnu5tAT+6PceKG36YKWVQhiypkUYUsqpDF/xE6n8/X6/V2uz0ej+cRzPN8v9+HYWjblhdTbAv1fc/zHQr2mdJiIQQG++AJPgMyQKs7EoLNUQnaCVKhBRwJpWIDS1QAtxYRz9N1nXZ4CyGANNQjm0A9ct93gIqsradCuzg4LRS7ey6Xix+QMt4JVYzOhu4KQnBXz644SqhpGlnVrYMEOWkPQuM4qmdXHCUk83hw8nUvzpNvD0LUjbXbFzIUP6Sx4KLCyZAgxXuTaykI0fnyjRkgp8fvBwttFqvEr1AIe9XjM6AYEI9MSXjkAAahaZp0N/zGFxJMPCONqRuL0HUTp0kj2QxCmZooLmq6YFz6ZnmqnAShTAqKhVDFsownJYT8yJj3xUgHTSgWeq5fC5mrTqrCaSG08sAFiHYLO+uGwAWIZzOvHcwvDo5erplK+hBIotxzHv4eMs+nZlyONLH/AwY29D5xsZDbXSv0KhCw41Q5alAAFBvPhpBbJs2ECl2bc2kyNYcQpjbjUkIC5kVhwQBViR/0MWXi/yngWT8Dfsc5Igyhn6cKWVQhiypkUYUsqpBFFbL4AvLxV6h49uN2AAAAAElFTkSuQmCC" y="563.2922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="13.8" x="531.6" y="582.0375">itch.io</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="537.9" y="586.8568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="50.1" x="513.45" y="591.549">Платформа дистрибуции</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="59.4" x="508.8" y="596.2412">видеоигр инди-разработчиков</text></g><!--MD5=[f165263a5bc97e8c48f8d43af68552b2]
+entity jolt--><g id="elem_jolt"><rect fill="#999999" height="49.2234" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="65.1" x="581.85" y="555.6422"/><image height="14.4" width="14.4" x="607.2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB5klEQVR4Xu2XrbKDMBBG+/5vEFWHw+Gq6nA4HKqurg7X+w1Jt8sXkuVm6P2ZyVGdJCQnu5tAT+6PceKG36YKWVQhiypkUYUsqpDF/xE6n8/X6/V2uz0ej+cRzPN8v9+HYWjblhdTbAv1fc/zHQr2mdJiIQQG++AJPgMyQKs7EoLNUQnaCVKhBRwJpWIDS1QAtxYRz9N1nXZ4CyGANNQjm0A9ct93gIqsradCuzg4LRS7ey6Xix+QMt4JVYzOhu4KQnBXz644SqhpGlnVrYMEOWkPQuM4qmdXHCUk83hw8nUvzpNvD0LUjbXbFzIUP6Sx4KLCyZAgxXuTaykI0fnyjRkgp8fvBwttFqvEr1AIe9XjM6AYEI9MSXjkAAahaZp0N/zGFxJMPCONqRuL0HUTp0kj2QxCmZooLmq6YFz6ZnmqnAShTAqKhVDFsownJYT8yJj3xUgHTSgWeq5fC5mrTqrCaSG08sAFiHYLO+uGwAWIZzOvHcwvDo5erplK+hBIotxzHv4eMs+nZlyONLH/AwY29D5xsZDbXSv0KhCw41Q5alAAFBvPhpBbJs2ECl2bc2kyNYcQpjbjUkIC5kVhwQBViR/0MWXi/yngWT8Dfsc5Igyhn6cKWVQhiypkUYUsqpBFFbL4AvLxV6h49uN2AAAAAElFTkSuQmCC" y="558.6422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="22.8" x="603" y="577.3875">Game Jolt</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="613.8" y="582.2068"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="43.5" x="592.65" y="586.899">Социальная сеть для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57.9" x="584.85" y="591.5912">игроков в видеоигры, а также</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="49.8" x="588.9" y="596.2834">платформа дистрибуции</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="49.2" x="589.8" y="600.9756">видеоигр пользователей</text></g><!--MD5=[0d7087cee098722e4da3ffc48bd01ec2]
+entity metacritic--><g id="elem_metacritic"><rect fill="#999999" height="53.9156" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="64.8" x="657.6" y="553.2422"/><image height="14.4" width="14.4" x="682.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACHElEQVR4Xu2YIZPCMBBG+f//oApXV4dD4XA4HAqHw9XdvUnmMr0vabIJOQ7RJ5g76CaPZHfTshs+jJ2+8d9sQiW6Ce33+3EcedUPKmkRYuLT6XS9Xh+PxzzPXymez+ftdjufz4fDQeOzVAjhcblcmEknL4E09oTriClMQtM03e93nacevo8OHVEQIie6qARY4Hye5YSOx6OO14O8U05IR+oH+a6T/ZATWqsgD1vpiyh8Xf4g28hfvTTFWvXlhJLZw3zMqpf+hqagYRFri5QTYgFCPKvFNJm9F/Kr69EYR06IzuEjLeUqJFdXSHamnNDg0sK+KkvYEZ0/IplGBaFmLEK0FQ37OyFLrW1CJd4hROGQqvQLy01BfyE6JIPSFChyi4HQQQgDvj0V1DB9TKMQYf7mUMd7mTohUsHSbV+hQqjtTojzi90kpQi3fJkKIcvRGGBuzl05mHqWPZmroSmQJsHXTrqeQsu7jjXW7mYCPYUsY60tTMAyiFWoeFDTAjQmoqdQsUC4QGMiegoVe+DHrRD1pTERPYWKOQQ0Hg1bQJe3dDKrkKXsIW5C/ItocccDVqHwsGGBY58tzvwuk8EqNBjSqAsVQlWL1EyF0NB64Hv8b2f6bkSd0OCcqjKDi7n38Mc+haYfR1QLDa5wih2FjMZDfoGwbPpLT67+WQI5toNXDKjw5IhL/JP46Jgc/m+PXu2wCr2NTajEJlTiG8aCLSCKAIx6AAAAAElFTkSuQmCC" y="556.2422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="21.9" x="679.05" y="574.9875">Metacritic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="689.4" y="579.8068"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="56.4" x="661.8" y="584.499">Самый известный агрегатор</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="46.8" x="666" y="589.1912">рецензий, собирающий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="41.4" x="668.7" y="593.8834">отзывы об играх и от</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="45.3" x="666.75" y="598.5756">критиков, и от простых</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="30" x="675" y="603.2678">пользователей</text></g><!--MD5=[202d894ba0e31506acf8e4bdb1e118f9]
+entity opencritic--><g id="elem_opencritic"><rect fill="#999999" height="44.5313" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="58.5" x="733.05" y="558.0422"/><image height="14.4" width="14.4" x="755.1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACHElEQVR4Xu2YIZPCMBBG+f//oApXV4dD4XA4HAqHw9XdvUnmMr0vabIJOQ7RJ5g76CaPZHfTshs+jJ2+8d9sQiW6Ce33+3EcedUPKmkRYuLT6XS9Xh+PxzzPXymez+ftdjufz4fDQeOzVAjhcblcmEknL4E09oTriClMQtM03e93nacevo8OHVEQIie6qARY4Hye5YSOx6OO14O8U05IR+oH+a6T/ZATWqsgD1vpiyh8Xf4g28hfvTTFWvXlhJLZw3zMqpf+hqagYRFri5QTYgFCPKvFNJm9F/Kr69EYR06IzuEjLeUqJFdXSHamnNDg0sK+KkvYEZ0/IplGBaFmLEK0FQ37OyFLrW1CJd4hROGQqvQLy01BfyE6JIPSFChyi4HQQQgDvj0V1DB9TKMQYf7mUMd7mTohUsHSbV+hQqjtTojzi90kpQi3fJkKIcvRGGBuzl05mHqWPZmroSmQJsHXTrqeQsu7jjXW7mYCPYUsY60tTMAyiFWoeFDTAjQmoqdQsUC4QGMiegoVe+DHrRD1pTERPYWKOQQ0Hg1bQJe3dDKrkKXsIW5C/ItocccDVqHwsGGBY58tzvwuk8EqNBjSqAsVQlWL1EyF0NB64Hv8b2f6bkSd0OCcqjKDi7n38Mc+haYfR1QLDa5wih2FjMZDfoGwbPpLT67+WQI5toNXDKjw5IhL/JP46Jgc/m+PXu2wCr2NTajEJlTiG8aCLSCKAIx6AAAAAElFTkSuQmCC" y="561.0422"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="24.3" x="750.15" y="579.7875">OpenCritic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="761.7" y="584.6068"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="41.1" x="741.75" y="589.299">Агрегатор рецензий,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51.3" x="736.05" y="593.9912">прозрачно формирующий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51" x="736.8" y="598.6834">среднюю оценку об играх</text></g><!--MD5=[fe4d4757f17ad1ff20eeccacaff789eb]
+entity google--><g id="elem_google"><rect fill="#999999" height="39.8391" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="62.7" x="805.65" y="469.9922"/><image height="14.4" width="14.4" x="829.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACgklEQVR4Xs2Zq7bCMBBF+/9/MAqHw+FQuLo63FW4Ohyu97QpITlpJlMaWN2KBc1k5zVJQyOfcjwer9dr13V/E/f73X3AN/gev3IBGw1/UeJyuaDWwQaexPMcQmWFUNu2j8eD6zTwfD7RbYfDgSMuYRLCECAo17MSRECTOHRCQQhTAZODY2+g73t9emlC5/OZ41UCkbmyF1khDBOHqUpuSi0LYQ5ygKqs66Fv941iI6nQ6XTiACpYOy4lolNvtxs+6+uxmJYiIYyrHs7jUgvsw+IerCOs8DRU0UZICE2kEItAJSylAC1fymIjoZBlsJCp9SySgudRymgjoRBSFtcfgwdya7UisxDawfXHoJU/sBEvVJw9a0fqY2Yhrj8GmSku9UVGIX3PwmBxoW8yCukbxS+7R5yQvr64RAZkjXaJLs8tpp1OS6MQKwTAlWvO0KndbAGZHXEaLGb+JaAzJ+XtQsN0Jmn0DGSfQFWEINPoO4Y95VcRgsz+hHY3ZLub1LKbZT9MOa9aYsTg9gbSY2SIOCF9q7dPIwt9vvH9NBqjEJYS/xhQcXO1zFfT8cPtMttpgyN2iksxs1DxhmX7Aa34SuNOpLOQnh6HGkdYvc14oXOP/eiQrw/WEGwJbyH93Oj44DVIDCnKHTwcbyEp9arHnr7RyGLHD3FmiYSK887jrsOU3sIQGG+6KK1EQmIbuBCEo8uGtfeQ1CoWku9fx4Sk28CCkBgWRRXQo1xxTkgMS2MjGGWuciIrJKU9bgvKOtWE5HWZwvG2oR+LC0KOWlMKw1TM9SYhmVIU+tmYpVKgkrv/I6xCnlV/viBN6/kzZbWQB9VAzuVD//cUPnfT31PG/kj5B77sbO7mKLpXAAAAAElFTkSuQmCC" y="472.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="16.5" x="828.75" y="491.7375">Google</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="836.4" y="496.5568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.3" x="809.85" y="501.249">Сервис авторизации OAuth</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="45.9" x="814.05" y="505.9412">2.0 от сервисов Google</text></g><!--MD5=[608d1cc913e673ee5f798ece544755a2]
+entity github--><g id="elem_github"><rect fill="#999999" height="39.8391" rx="0.75" ry="0.75" style="stroke:#8A8A8A;stroke-width:0.15;" width="62.7" x="878.85" y="469.9922"/><image height="14.4" width="14.4" x="903" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAC00lEQVR4Xs2YobbCMAyG7/u/QdV1OBwOhcPhcCgcDofL/dewLkuTdBtj535qp2vTf2mStvtJ/4wf3bCI34xuXcQSQbvd7nQ63W63x+NBFWjEK3RANz1yAvMEYRpThAc6Y4i2EjJV0OVyeb1eesJpYOD5fNYWHdqCjsfjYikSGDkcDtp6RUPQ9XrVhj8D4aXnGOMKQtbMCpfpwGyQkrYgDHg+n9rSesC4p8kW9CXfSDxNhqD7/a5HfwdMpOeuBSE/9TgiZAdXQv1iGlwnYUS/IKrLwUgQaqsekWOwdICTzbx7ZXQrEaqXXBczElRBHwkyB8Co7JOybjR6mwNvLOhQv0Wjtl4t3CDIdClZXl2MGQ+UQ6L0GQSZ7qFNBEknvQWZ0cM0a+t0grQo6/sWZK4us42gEqlvQd56IXfM8rUMmDKTkUQud4LQT7/vmXuaaQKDeo4e/vJOkJdfQNtbAz1HD+daJ8hTLUviinjhwavRCfIiesVwlnihzXHdCTJ3A4B2bWwN4uk6QZ7kjT3E00UeMo8Hn+MdbwYPeRUdZyhtbA28s+gQQ16WUV8bViTYo4YsC+rQloVxqEPJL1arr5q3XtQX4cZeRpscP0jtZcmvjQwur4PVpcCItivQu30Qa8yHRTL+YKrPQ2lcHvBcXzP4n8GsvMM0GOIdOQrGiTGNXcq33f1+b/oZgQmtwTryxwTxq7DP1Gkc2vgsfJ+niarri6QZABJ1phgJUoY45/G59d7S3FW8/aEmupelKvq4MJ4zpRHOC9aLCTJcUl/6tKBULRw3IqT4OszX6mZoBxW5YB4ADUHqX4xcnd+M6OviRV5hxt+PlINJ5ioGn8TFGQ+mLUksiDNGj8nYglLrD1ozhgJBnm8YVxDjJUtTkBdDzfRsCErOX9jmsaQWBCPNUWmKoGT9FmqaVoIwPFgmySRBDCyWjQkVXL8egw60aPubIWgb/p2gP8gmP7P3wquXAAAAAElFTkSuQmCC" y="472.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="15.9" x="902.25" y="491.7375">GitHub</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="909.6" y="496.5568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.3" x="883.05" y="501.249">Сервис авторизации OAuth</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="45" x="887.7" y="505.9412">2.0 от сервисов GitHub</text></g><!--MD5=[35095253a9050189d3dfafb4fb109a38]
+entity trends--><g id="elem_trends"><path d="M1.8,554.8922 C1.8,551.8922 34.8,551.8922 34.8,551.8922 C34.8,551.8922 67.8,551.8922 67.8,554.8922 L67.8,605.5078 C67.8,608.5078 34.8,608.5078 34.8,608.5078 C34.8,608.5078 1.8,608.5078 1.8,605.5078 L1.8,554.8922 " fill="#999999" style="stroke:#8A8A8A;stroke-width:0.15;"/><path d="M1.8,554.8922 C1.8,557.8922 34.8,557.8922 34.8,557.8922 C34.8,557.8922 67.8,557.8922 67.8,554.8922 " fill="none" style="stroke:#8A8A8A;stroke-width:0.15;"/><image height="14.4" width="14.4" x="27.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBUlEQVR4Xu2YLZODMBBA+///QRSurg6HwuFwdVW4c3W4uzfZOSbsBsJXrtwMT7VAkpdNyCbc3Mm46QufZp3Q4/Goqqppmufz+Xq9uq778rzfb/nRebjVtm1d12VZFkWha5klIUR1GNA8TX7vAEu6QX90A4ZJITpHR3XFu+n7nuDNhC0idL/fCb6u6WgImG7Yo4WIqi6aDcZRte6sECHV5XJi4zQSYmh1icwwTUMB93EhO2qX0JiEEOgSmUnMIWBR1oVyYtduLQQ5FmgL6wvJQLcdFXI+b2RdrBmHqewRFxLIIeSdnWk1hCnMFkA3M0a/ZYyXdZecjxw1rvIjzFTIchwdHS5Sp7qohaQiQmqnWwhPEr/SU/0ifynILV1gDA/LlEi89modIhj0INq5DWDJeKk3Zp1QCHIUHvaB1G5HVig8PDDsLQnGVM7eLjRP79FXF5BLaDOXUIrTCaWT67a5uZnEFtadcJPv/uoYZJOGEBESznJQVGlI0ur+ozQhjx6l7ZXIWzazWaE8qUMSQucZPjaE3xvCjw1TiVa2XHYaRYQEHiU24d1DwI/+DPFeITRAP+gucja8S6BOgiF53q4pW4QUVCrbLkYN0cZTe/jReuTr0ZJpd4DQsVxCKf6bkLuO0nYp0ULuOkor4kLC54/SU0jOP/woHWWRkKXYd5SeYaNQPk4n9ANBX0GgzB2YqwAAAABJRU5ErkJggg==" y="559.0922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="33.9" x="17.85" y="577.8375">Google Trends</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="34.2" y="582.6568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="42.9" x="13.35" y="587.349">Приложение, которое</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="54.6" x="6.9" y="592.0412">показывает, как часто ищут</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="60" x="4.8" y="596.7334">конкретный термин на разных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="43.2" x="13.2" y="601.4256">территориях и языках</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="34.2" y="606.1178"> </text></g><!--MD5=[39bad9706674647a09b4c899da414b1f]
+entity moby--><g id="elem_moby"><path d="M78.45,557.2922 C78.45,554.2922 108.6,554.2922 108.6,554.2922 C108.6,554.2922 138.75,554.2922 138.75,557.2922 L138.75,603.2156 C138.75,606.2156 108.6,606.2156 108.6,606.2156 C108.6,606.2156 78.45,606.2156 78.45,603.2156 L78.45,557.2922 " fill="#999999" style="stroke:#8A8A8A;stroke-width:0.15;"/><path d="M78.45,557.2922 C78.45,560.2922 108.6,560.2922 108.6,560.2922 C108.6,560.2922 138.75,560.2922 138.75,557.2922 " fill="none" style="stroke:#8A8A8A;stroke-width:0.15;"/><image height="14.4" width="14.4" x="101.4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBUlEQVR4Xu2YLZODMBBA+///QRSurg6HwuFwdVW4c3W4uzfZOSbsBsJXrtwMT7VAkpdNyCbc3Mm46QufZp3Q4/Goqqppmufz+Xq9uq778rzfb/nRebjVtm1d12VZFkWha5klIUR1GNA8TX7vAEu6QX90A4ZJITpHR3XFu+n7nuDNhC0idL/fCb6u6WgImG7Yo4WIqi6aDcZRte6sECHV5XJi4zQSYmh1icwwTUMB93EhO2qX0JiEEOgSmUnMIWBR1oVyYtduLQQ5FmgL6wvJQLcdFXI+b2RdrBmHqewRFxLIIeSdnWk1hCnMFkA3M0a/ZYyXdZecjxw1rvIjzFTIchwdHS5Sp7qohaQiQmqnWwhPEr/SU/0ifynILV1gDA/LlEi89modIhj0INq5DWDJeKk3Zp1QCHIUHvaB1G5HVig8PDDsLQnGVM7eLjRP79FXF5BLaDOXUIrTCaWT67a5uZnEFtadcJPv/uoYZJOGEBESznJQVGlI0ur+ozQhjx6l7ZXIWzazWaE8qUMSQucZPjaE3xvCjw1TiVa2XHYaRYQEHiU24d1DwI/+DPFeITRAP+gucja8S6BOgiF53q4pW4QUVCrbLkYN0cZTe/jReuTr0ZJpd4DQsVxCKf6bkLuO0nYp0ULuOkor4kLC54/SU0jOP/woHWWRkKXYd5SeYaNQPk4n9ANBX0GgzB2YqwAAAABJRU5ErkJggg==" y="561.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="94.35" y="580.2375">MobyGames</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="108" y="585.0568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="51.9" x="82.65" y="589.749">Самая старая, большая и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48" x="84" y="594.4412">точная БД видеоигр для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="34.5" x="91.35" y="599.1334">любых платформ</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="108" y="603.8256"> </text></g><!--MD5=[ebc8665b8421c795b024ba7881951072]
+entity igdb--><g id="elem_igdb"><path d="M149.25,554.8922 C149.25,551.8922 179.1,551.8922 179.1,551.8922 C179.1,551.8922 208.95,551.8922 208.95,554.8922 L208.95,605.5078 C208.95,608.5078 179.1,608.5078 179.1,608.5078 C179.1,608.5078 149.25,608.5078 149.25,605.5078 L149.25,554.8922 " fill="#999999" style="stroke:#8A8A8A;stroke-width:0.15;"/><path d="M149.25,554.8922 C149.25,557.8922 179.1,557.8922 179.1,557.8922 C179.1,557.8922 208.95,557.8922 208.95,554.8922 " fill="none" style="stroke:#8A8A8A;stroke-width:0.15;"/><image height="14.4" width="14.4" x="171.9" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBUlEQVR4Xu2YLZODMBBA+///QRSurg6HwuFwdVW4c3W4uzfZOSbsBsJXrtwMT7VAkpdNyCbc3Mm46QufZp3Q4/Goqqppmufz+Xq9uq778rzfb/nRebjVtm1d12VZFkWha5klIUR1GNA8TX7vAEu6QX90A4ZJITpHR3XFu+n7nuDNhC0idL/fCb6u6WgImG7Yo4WIqi6aDcZRte6sECHV5XJi4zQSYmh1icwwTUMB93EhO2qX0JiEEOgSmUnMIWBR1oVyYtduLQQ5FmgL6wvJQLcdFXI+b2RdrBmHqewRFxLIIeSdnWk1hCnMFkA3M0a/ZYyXdZecjxw1rvIjzFTIchwdHS5Sp7qohaQiQmqnWwhPEr/SU/0ifynILV1gDA/LlEi89modIhj0INq5DWDJeKk3Zp1QCHIUHvaB1G5HVig8PDDsLQnGVM7eLjRP79FXF5BLaDOXUIrTCaWT67a5uZnEFtadcJPv/uoYZJOGEBESznJQVGlI0ur+ozQhjx6l7ZXIWzazWaE8qUMSQucZPjaE3xvCjw1TiVa2XHYaRYQEHiU24d1DwI/+DPFeITRAP+gucja8S6BOgiF53q4pW4QUVCrbLkYN0cZTe/jReuTr0ZJpd4DQsVxCKf6bkLuO0nYp0ULuOkor4kLC54/SU0jOP/woHWWRkKXYd5SeYaNQPk4n9ANBX0GgzB2YqwAAAABJRU5ErkJggg==" y="559.0922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="21" x="168.6" y="577.8375">IGDB API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="178.5" y="582.6568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="42.9" x="157.65" y="587.349">БД видеоигр, которая</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="52.5" x="152.25" y="592.0412">содержит историю игры, а</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.9" x="154.05" y="596.7334">также информацию о ее</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.7" x="152.25" y="601.4256">разработчиках и издателях</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="178.5" y="606.1178"> </text></g><!--MD5=[df9913d862b079b75f71f0825dd0a464]
+entity rawg--><g id="elem_rawg"><path d="M219.45,554.8922 C219.45,551.8922 250.2,551.8922 250.2,551.8922 C250.2,551.8922 280.95,551.8922 280.95,554.8922 L280.95,605.5078 C280.95,608.5078 250.2,608.5078 250.2,608.5078 C250.2,608.5078 219.45,608.5078 219.45,605.5078 L219.45,554.8922 " fill="#999999" style="stroke:#8A8A8A;stroke-width:0.15;"/><path d="M219.45,554.8922 C219.45,557.8922 250.2,557.8922 250.2,557.8922 C250.2,557.8922 280.95,557.8922 280.95,554.8922 " fill="none" style="stroke:#8A8A8A;stroke-width:0.15;"/><image height="14.4" width="14.4" x="243" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBUlEQVR4Xu2YLZODMBBA+///QRSurg6HwuFwdVW4c3W4uzfZOSbsBsJXrtwMT7VAkpdNyCbc3Mm46QufZp3Q4/Goqqppmufz+Xq9uq778rzfb/nRebjVtm1d12VZFkWha5klIUR1GNA8TX7vAEu6QX90A4ZJITpHR3XFu+n7nuDNhC0idL/fCb6u6WgImG7Yo4WIqi6aDcZRte6sECHV5XJi4zQSYmh1icwwTUMB93EhO2qX0JiEEOgSmUnMIWBR1oVyYtduLQQ5FmgL6wvJQLcdFXI+b2RdrBmHqewRFxLIIeSdnWk1hCnMFkA3M0a/ZYyXdZecjxw1rvIjzFTIchwdHS5Sp7qohaQiQmqnWwhPEr/SU/0ifynILV1gDA/LlEi89modIhj0INq5DWDJeKk3Zp1QCHIUHvaB1G5HVig8PDDsLQnGVM7eLjRP79FXF5BLaDOXUIrTCaWT67a5uZnEFtadcJPv/uoYZJOGEBESznJQVGlI0ur+ozQhjx6l7ZXIWzazWaE8qUMSQucZPjaE3xvCjw1TiVa2XHYaRYQEHiU24d1DwI/+DPFeITRAP+gucja8S6BOgiF53q4pW4QUVCrbLkYN0cZTe/jReuTr0ZJpd4DQsVxCKf6bkLuO0nYp0ULuOkor4kLC54/SU0jOP/woHWWRkKXYd5SeYaNQPk4n9ANBX0GgzB2YqwAAAABJRU5ErkJggg==" y="559.0922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="55.5" x="222.45" y="577.8375">RAWG Video Games API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="249.6" y="582.6568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="42.9" x="228.75" y="587.349">БД видеоигр, которая</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="52.5" x="223.35" y="592.0412">содержит историю игры, а</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="48.9" x="225.15" y="596.7334">также информацию о ее</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="53.7" x="223.35" y="601.4256">разработчиках и издателях</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="249.6" y="606.1178"> </text></g><!--MD5=[772fe8aac07d2a07a84629acd6c59f9f]
+entity ftg--><g id="elem_ftg"><path d="M291.6,557.2922 C291.6,554.2922 324.3,554.2922 324.3,554.2922 C324.3,554.2922 357,554.2922 357,557.2922 L357,603.2156 C357,606.2156 324.3,606.2156 324.3,606.2156 C324.3,606.2156 291.6,606.2156 291.6,603.2156 L291.6,557.2922 " fill="#999999" style="stroke:#8A8A8A;stroke-width:0.15;"/><path d="M291.6,557.2922 C291.6,560.2922 324.3,560.2922 324.3,560.2922 C324.3,560.2922 357,560.2922 357,557.2922 " fill="none" style="stroke:#8A8A8A;stroke-width:0.15;"/><image height="14.4" width="14.4" x="317.1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBUlEQVR4Xu2YLZODMBBA+///QRSurg6HwuFwdVW4c3W4uzfZOSbsBsJXrtwMT7VAkpdNyCbc3Mm46QufZp3Q4/Goqqppmufz+Xq9uq778rzfb/nRebjVtm1d12VZFkWha5klIUR1GNA8TX7vAEu6QX90A4ZJITpHR3XFu+n7nuDNhC0idL/fCb6u6WgImG7Yo4WIqi6aDcZRte6sECHV5XJi4zQSYmh1icwwTUMB93EhO2qX0JiEEOgSmUnMIWBR1oVyYtduLQQ5FmgL6wvJQLcdFXI+b2RdrBmHqewRFxLIIeSdnWk1hCnMFkA3M0a/ZYyXdZecjxw1rvIjzFTIchwdHS5Sp7qohaQiQmqnWwhPEr/SU/0ifynILV1gDA/LlEi89modIhj0INq5DWDJeKk3Zp1QCHIUHvaB1G5HVig8PDDsLQnGVM7eLjRP79FXF5BLaDOXUIrTCaWT67a5uZnEFtadcJPv/uoYZJOGEBESznJQVGlI0ur+ozQhjx6l7ZXIWzazWaE8qUMSQucZPjaE3xvCjw1TiVa2XHYaRYQEHiU24d1DwI/+DPFeITRAP+gucja8S6BOgiF53q4pW4QUVCrbLkYN0cZTe/jReuTr0ZJpd4DQsVxCKf6bkLuO0nYp0ULuOkor4kLC54/SU0jOP/woHWWRkKXYd5SeYaNQPk4n9ANBX0GgzB2YqwAAAABJRU5ErkJggg==" y="561.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.8" font-weight="bold" lengthAdjust="spacing" textLength="38.4" x="305.1" y="580.2375">FreeToGame API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="323.7" y="585.0568"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="57" x="295.8" y="589.749">БД c информацией об играх,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="49.2" x="299.1" y="594.4412">распространяющихся по</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="41.7" x="303.45" y="599.1334">модели ''free-to-play''</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="323.7" y="603.8256"> </text></g><!--MD5=[323da60eac6a5860915577cd1b5cc289]
+link user to mobile--><g id="link_user_mobile"><path d="M249.672,37.9922 C265.683,37.9922 285.36,37.9922 302.028,37.9922 " fill="none" id="user-to-mobile" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="304.464,37.9922,302.064,37.0922,302.064,38.8922,304.464,37.9922" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="21.3" x="265.95" y="28.0512">Использует,</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="260.7" y="32.073">взаимодействуя с</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="43.8" x="255.15" y="36.0949">элементами интерфейса</text></g><!--MD5=[200516a84173766e8048583ff15b2ca8]
+link mobile to gateway--><g id="link_mobile_gateway"><path d="M336.663,62.9432 C336.297,73.8092 335.862,86.6492 335.478,97.9562 " fill="none" id="mobile-to-gateway" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="335.391,100.4942,336.3719,98.1261,334.5729,98.065,335.391,100.4942" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="336.6" y="75.4512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="21" x="342" y="79.473">[HTTPS, WS]</text></g><!--MD5=[4229fdd0681782b12446ed212caabe40]
+reverse link notifs to gateway--><g id="link_notifs_gateway"><path d="M258.648,127.0922 C274.005,127.0922 291.78,127.0922 306.258,127.0922 " fill="none" id="notifs-backto-gateway" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="256.203,127.0922,258.603,127.9922,258.603,126.1922,256.203,127.0922" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="265.35" y="121.3512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="274.5" y="125.373">[HTTPS]</text></g><!--MD5=[1b736fd87108866d2a9bb3b368ae5eef]
+reverse link notifs_db to notifs--><g id="link_notifs_db_notifs"><path d="M141.402,127.0922 C157.017,127.0922 175.371,127.0922 190.758,127.0922 " fill="none" id="notifs_db-backto-notifs" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="138.921,127.0922,141.321,127.9922,141.321,126.1922,138.921,127.0922" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="150.6" y="121.3512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="144.45" y="125.373">[MongoDB Wire Protocol]</text></g><!--MD5=[b6ad7580570e87cc84120318e41beb5a]
+reverse link user to notifs--><g id="link_user_notifs"><path d="M220.101,59.9522 C220.716,72.0542 221.49,87.2372 222.141,100.0742 " fill="none" id="user-backto-notifs" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="219.975,57.4952,219.196,59.9371,220.9937,59.8472,219.975,57.4952" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="42" x="221.7" y="75.4512">Отправка на устройство</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="235.95" y="79.473">[HTTPS]</text></g><!--MD5=[62bb9f8fcf237d7abb919cb74550cd2e]
+link gateway to accounts--><g id="link_gateway_accounts"><path d="M362.799,134.4902 C389.646,142.3112 429.999,156.9962 458.4,180.4922 C495.699,211.3502 497.073,227.7902 519.3,270.7922 C533.697,298.6442 529.341,309.1862 544.2,336.7922 C548.724,345.2012 549.069,348.5882 556.8,354.1922 C585.297,374.8502 624.555,385.5032 652.257,390.7892 " fill="none" id="gateway-to-accounts" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="654.648,391.2392,652.457,389.9089,652.1226,391.6776,654.648,391.2392" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="514.8" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="523.95" y="260.973">[HTTPS]</text></g><!--MD5=[7fa74ec2158c470649e0321f974b9ab0]
+link accounts to accounts_db--><g id="link_accounts_accounts_db"><path d="M685.8,422.9702 C685.8,434.3762 685.8,447.7322 685.8,459.4832 " fill="none" id="accounts-to-accounts_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="685.8,461.9642,686.7,459.5642,684.9,459.5642,685.8,461.9642" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="692.25" y="441.1512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="686.1" y="445.173">[MongoDB Wire Protocol]</text></g><!--MD5=[2c902c0b30f391848d8a335dcd260ec4]
+link roles to roles_db--><g id="link_roles_roles_db"><path d="M763.335,330.8042 C762.615,342.4022 761.766,355.9862 761.037,367.7102 " fill="none" id="roles-to-roles_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="760.884,370.1852,761.9322,367.8461,760.1357,367.7336,760.884,370.1852" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="768.75" y="349.3512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="762.6" y="353.373">[MongoDB Wire Protocol]</text></g><!--MD5=[a303de9ae087d7cd70bdf461ee2a3913]
+link roles to accounts--><g id="link_roles_accounts"><path d="M740.205,330.8312 C735.732,335.7662 731.145,340.9052 726.9,345.7922 C721.029,352.5512 714.822,359.9402 709.059,366.9062 " fill="none" id="roles-to-accounts" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="707.526,368.7632,709.7486,367.4865,708.3611,366.3398,707.526,368.7632" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="727.2" y="349.3512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="736.35" y="353.373">[HTTPS]</text></g><!--MD5=[11b3f413c71b7026739339ed0bb209f8]
+link files to files_db--><g id="link_files_files_db"><path d="M409.8,328.1342 C409.8,339.6002 409.8,353.4362 409.8,365.5832 " fill="none" id="files-to-files_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="409.8,367.9892,410.7,365.5892,408.9,365.5892,409.8,367.9892" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="416.25" y="349.3512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="410.1" y="353.373">[MongoDB Wire Protocol]</text></g><!--MD5=[406a5b99113291d1c3f11894dfba4ac2]
+link gateway to fast_cards--><g id="link_gateway_fast_cards"><path d="M306.267,139.7402 C292.89,145.0562 276.537,150.7952 261.3,154.0922 C235.683,159.6332 167.253,151.5962 143.7,163.0922 C134.967,167.3552 127.134,174.1352 120.561,181.3082 " fill="none" id="gateway-to-fast_cards" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="118.914,183.1382,121.1879,181.9551,119.8493,180.7517,118.914,183.1382" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="144" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="153.15" y="170.673">[HTTPS]</text></g><!--MD5=[d385174e3aa07e3618dd7f2675c412df]
+link fast_cards to fast_cards_db--><g id="link_fast_cards_fast_cards_db"><path d="M98.904,241.7042 C98.874,251.0552 98.838,261.4772 98.808,271.0592 " fill="none" id="fast_cards-to-fast_cards_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="98.799,273.4772,99.7076,271.0804,97.9076,271.074,98.799,273.4772" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="105.45" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="99.3" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[a409770ce61013568fb8c44819e45966]
+link gateway to app_settings--><g id="link_gateway_app_settings"><path d="M306.294,139.4342 C292.887,144.7022 276.504,150.4892 261.3,154.0922 C244.452,158.0852 196.506,151.2182 183.9,163.0922 C179.64,167.1062 177.024,172.4252 175.479,178.0802 " fill="none" id="gateway-to-app_settings" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="174.903,180.4322,176.3509,178.3171,174.6031,177.8866,174.903,180.4322" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="184.2" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="193.35" y="170.673">[HTTPS]</text></g><!--MD5=[e9a87832b31154a3a536f1707a46c1ce]
+link app_settings to app_settings_db--><g id="link_app_settings_app_settings_db"><path d="M166.197,244.4372 C165.588,247.4432 165.072,250.4642 164.7,253.3922 C164.088,258.1982 164.115,263.2532 164.532,268.2272 " fill="none" id="app_settings-to-app_settings_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="164.766,270.6602,165.4306,268.1847,163.639,268.358,164.766,270.6602" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="171.15" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="165" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[b5f147141f99f8b9949dbe2bac008625]
+link gateway to user_settings--><g id="link_gateway_user_settings"><path d="M362.748,130.4582 C408.015,135.7592 494.397,147.5732 520.8,163.0922 C527.613,167.0972 533.814,172.6652 539.217,178.6142 " fill="none" id="gateway-to-user_settings" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="540.867,180.4742,539.9438,178.083,538.5991,179.2797,540.867,180.4742" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="532.2" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="541.35" y="170.673">[HTTPS]</text></g><!--MD5=[62d95f62a39db3c9dd84e7a2b94618f5]
+link user_settings to user_settings_db--><g id="link_user_settings_user_settings_db"><path d="M582.255,244.4822 C587.778,253.0952 593.766,262.4282 599.313,271.0772 " fill="none" id="user_settings-to-user_settings_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="600.636,273.1442,600.0944,270.6389,598.5806,271.6127,600.636,273.1442" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="598.95" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="592.8" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[4f3de1f5c77ff34ef3a41bca066aea95]
+link user_settings to accounts--><g id="link_user_settings_accounts"><path d="M554.874,244.4162 C548.61,276.0722 541.788,322.0952 551.4,336.7922 C573.603,370.7402 620.196,385.2062 652.242,391.2902 " fill="none" id="user_settings-to-accounts" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="654.618,391.7312,652.4219,390.4094,652.0943,392.1793,654.618,391.7312" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="551.7" y="303.1512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="560.85" y="307.173">[HTTPS]</text></g><!--MD5=[6fc7e410359ccc318ea8395994fe6c11]
+link gateway to ideas--><g id="link_gateway_ideas"><path d="M306.282,140.8202 C290.898,149.7572 273.171,163.0682 264,180.4922 C255.738,196.1852 255.918,243.2072 257.067,274.3532 " fill="none" id="gateway-to-ideas" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="257.16,276.7562,257.9694,274.3241,256.1707,274.3916,257.16,276.7562" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="264.3" y="211.8012">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="273.45" y="215.823">[HTTPS]</text></g><!--MD5=[1e4ac99d255b2e019cd21473b0f2e227]
+link ideas to ideas_db--><g id="link_ideas_ideas_db"><path d="M267.621,330.8042 C270.786,340.1792 274.392,350.8532 277.749,360.7952 " fill="none" id="ideas-to-ideas_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="278.55,363.1712,278.6362,360.6094,276.9305,361.1844,278.55,363.1712" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="281.25" y="349.3512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="275.1" y="353.373">[MongoDB Wire Protocol]</text></g><!--MD5=[b1de106c4702d10c06adf948eae41a82]
+link gateway to idea_reports--><g id="link_gateway_idea_reports"><path d="M334.5,153.7442 C334.5,162.2702 334.5,171.8132 334.5,180.6752 " fill="none" id="gateway-to-idea_reports" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="334.5,183.1532,335.4,180.7532,333.6,180.7532,334.5,183.1532" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="334.8" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="343.95" y="170.673">[HTTPS]</text></g><!--MD5=[8b36988aa6390e82c52adb23ea1b6043]
+link idea_reports to idea_reports_db--><g id="link_idea_reports_idea_reports_db"><path d="M324.102,241.7942 C323.07,245.6522 322.188,249.5882 321.6,253.3922 C320.847,258.2492 321.03,263.3132 321.78,268.2752 " fill="none" id="idea_reports-to-idea_reports_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="322.194,270.6992,322.6783,268.1822,320.9039,268.4843,322.194,270.6992" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="328.05" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="321.9" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[0464ed98386dec02fa390ced14dc9efe]
+link idea_reports to ideas--><g id="link_idea_reports_ideas"><path d="M301.635,237.5522 C296.142,242.4722 290.754,247.8422 286.2,253.3922 C280.953,259.7852 276.198,267.3182 272.172,274.5782 " fill="none" id="idea_reports-to-ideas" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="271.002,276.7172,272.9445,275.0448,271.3658,274.1799,271.002,276.7172" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="286.5" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="295.65" y="260.973">[HTTPS]</text></g><!--MD5=[06b533391240b48810cc386e888eb6f1]
+link gateway to session_results--><g id="link_gateway_session_results"><path d="M361.176,153.7442 C369.261,161.7272 378.243,170.6012 386.718,178.9712 " fill="none" id="gateway-to-session_results" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="388.518,180.7502,387.4456,178.4221,386.1792,179.7013,388.518,180.7502" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="377.7" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="386.85" y="170.673">[HTTPS]</text></g><!--MD5=[ced16d4d20a67068d4bbfabf965aed4e]
+link session_results to session_results_db--><g id="link_session_results_session_results_db"><path d="M443.49,244.1372 C445.713,247.2482 447.912,250.3712 450,253.3922 C453.441,258.3722 457.008,263.6792 460.467,268.9082 " fill="none" id="session_results-to-session_results_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="461.838,270.9842,461.2642,268.486,459.7631,269.4793,461.838,270.9842" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="461.85" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="455.7" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[40a3f1d6d87bc7a8c9d38589d7867c00]
+link idea_reports to files--><g id="link_idea_reports_files"><path d="M358.533,241.7042 C368.052,253.1792 378.918,266.2712 388.185,277.4432 " fill="none" id="idea_reports-to-files" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="389.778,279.3632,388.9368,276.9419,387.5522,278.0921,389.778,279.3632" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="374.7" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="383.85" y="260.973">[HTTPS]</text></g><!--MD5=[4569b37c65195914c300e59d1dddc1d3]
+link session_results to files--><g id="link_session_results_files"><path d="M416.673,244.1012 C415.431,254.8202 414.057,266.6972 412.866,276.9932 " fill="none" id="session_results-to-files" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="412.584,279.4382,413.7566,277.1589,411.9688,276.9499,412.584,279.4382" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="415.5" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="424.65" y="260.973">[HTTPS]</text></g><!--MD5=[10e7626b1d718fecfb8d8dd996183d32]
+link gateway to sessions--><g id="link_gateway_sessions"><path d="M362.79,129.7322 C406.929,133.8272 494.607,143.7662 566.7,163.0922 C598.173,171.5282 632.562,185.2382 657.447,196.0202 " fill="none" id="gateway-to-sessions" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="659.676,196.9892,657.8325,195.2083,657.1161,196.8596,659.676,196.9892" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="591.6" y="166.6512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="600.75" y="170.673">[HTTPS]</text></g><!--MD5=[705eb28aeb4b3b7389855e2bd050bb56]
+link sessions to sessions_db--><g id="link_sessions_sessions_db"><path d="M692.7,241.7042 C692.7,251.0552 692.7,261.4772 692.7,271.0592 " fill="none" id="sessions-to-sessions_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="692.7,273.4772,693.6,271.0772,691.8,271.0772,692.7,273.4772" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="699.15" y="256.9512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="693" y="260.973">[MongoDB Wire Protocol]</text></g><!--MD5=[a5467dab5e47be9a1060913391f42528]
+link sessions to roles--><g id="link_sessions_roles"><path d="M725.769,241.3322 C729.573,245.2172 733.248,249.2852 736.5,253.3922 C741.645,259.8902 746.445,267.4262 750.585,274.6502 " fill="none" id="sessions-to-roles" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="751.791,276.7802,751.3907,274.2484,749.8247,275.1359,751.791,276.7802" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="742.2" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="751.35" y="260.973">[HTTPS]</text></g><!--MD5=[d4e09cf7a82dfeddfeac9817b6311e4b]
+link gateway to games--><g id="link_gateway_games"><path d="M306.267,139.3472 C293.775,145.4102 279.351,153.5222 267.9,163.0922 C260.325,169.4222 259.197,172.0412 254.1,180.4922 C235.818,210.8072 230.772,219.0932 222,253.3922 C212.484,290.6042 211.866,335.0312 212.853,364.2032 " fill="none" id="gateway-to-games" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="212.94,366.6272,213.7538,364.1966,211.9549,364.2608,212.94,366.6272" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="222.3" y="256.9512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="231.45" y="260.973">[HTTPS]</text></g><!--MD5=[72b60f2914726972c856b814f7c66614]
+link games to games_db--><g id="link_games_games_db"><path d="M182.031,425.1692 C178.137,429.1832 174.357,433.3772 171,437.5922 C167.253,442.2962 163.647,447.5072 160.311,452.7632 " fill="none" id="games-to-games_db" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="158.994,454.8572,161.0333,453.3044,159.5095,452.3463,158.994,454.8572" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="28.5" x="177.45" y="441.1512">Чтение и запись</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="171.3" y="445.173">[MongoDB Wire Protocol]</text></g><!--MD5=[78fd0dab4fbe81c4dfe3e275f42bf84e]
+link ideas to games--><g id="link_ideas_games"><path d="M245.424,330.8672 C243.006,335.8232 240.516,340.9592 238.2,345.7922 C235.317,351.8012 232.269,358.2362 229.359,364.4162 " fill="none" id="ideas-to-games" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="228.333,366.5882,230.1718,364.8025,228.5442,364.0337,228.333,366.5882" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="238.5" y="349.3512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="247.65" y="353.373">[HTTPS]</text></g><!--MD5=[f9025336067bbc2a20dcde95a64bfecb]
+link games to apis--><g id="link_games_apis"><path d="M214.8,425.2472 C214.8,436.3322 214.8,448.9712 214.8,460.0982 " fill="none" id="games-to-apis" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="214.8,462.5942,215.7,460.1942,213.9,460.1942,214.8,462.5942" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="215.1" y="441.1512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="224.25" y="445.173">[HTTPS]</text></g><!--MD5=[a8160b4883cc3fdcf17fca666c2f4889]
+link games to parsers--><g id="link_games_parsers"><path d="M246.783,425.1722 C248.79,426.4232 250.836,427.5752 252.9,428.5922 C336.543,469.7912 447.387,483.3032 503.196,487.6442 " fill="none" id="games-to-parsers" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="505.647,487.8332,503.3232,486.7514,503.1849,488.5461,505.647,487.8332" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="31.8" x="289.2" y="441.1512">Запросы GraphQL</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="298.35" y="445.173">[HTTPS]</text></g><!--MD5=[e3dd62afd7c4ec8b66563b80af1c6434]
+link parsers to epic--><g id="link_parsers_epic"><path d="M505.572,507.4112 C483.954,519.1112 455.352,535.4192 431.4,551.8922 C428.292,554.0282 425.115,556.3742 422.007,558.7652 " fill="none" id="parsers-to-epic" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="420.081,560.2592,422.5288,559.4988,421.4253,558.0768,420.081,560.2592" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="457.2" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="463.35" y="542.073">[HTTPS]</text></g><!--MD5=[45a691065cd3f005b1d977ba210f87b0]
+link parsers to steam--><g id="link_parsers_steam"><path d="M514.626,519.7382 C504.471,532.2872 492.837,546.6632 483.483,558.2162 " fill="none" id="parsers-to-steam" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="481.884,560.1932,484.0951,558.8967,482.6974,557.7625,481.884,560.1932" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="502.5" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="508.65" y="542.073">[HTTPS]</text></g><!--MD5=[e0019f144ddf938cac54bc23e22c1dad]
+link parsers to itch--><g id="link_parsers_itch"><path d="M538.5,519.7382 C538.5,532.1312 538.5,546.3062 538.5,557.7872 " fill="none" id="parsers-to-itch" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="538.5,560.1932,539.4,557.7932,537.6,557.7932,538.5,560.1932" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="538.8" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="544.95" y="542.073">[HTTPS]</text></g><!--MD5=[1cd63497a2b667a03abcffcde55071cf]
+link parsers to jolt--><g id="link_parsers_jolt"><path d="M563.457,519.7382 C572.691,530.6492 583.092,542.9402 592.077,553.5602 " fill="none" id="parsers-to-jolt" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="593.736,555.5222,592.8705,553.1095,591.4975,554.2735,593.736,555.5222" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="581.1" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="587.25" y="542.073">[HTTPS]</text></g><!--MD5=[99e95e63711fb52727c1a9d9da2c69c8]
+link parsers to metacritic--><g id="link_parsers_metacritic"><path d="M571.425,506.5232 C594.51,518.3192 625.836,535.0802 652.2,551.8922 C653.298,552.5912 654.405,553.3142 655.518,554.0522 " fill="none" id="parsers-to-metacritic" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="657.525,555.3962,656.0335,553.3116,655.0306,554.8063,657.525,555.3962" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="637.5" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="643.65" y="542.073">[HTTPS]</text></g><!--MD5=[13e0cde94b0af6ed68761d6e066263c1]
+link parsers to opencritic--><g id="link_parsers_opencritic"><path d="M571.374,503.9012 C594.033,512.9042 625.008,524.4062 653.1,532.0922 C658.725,533.6312 660.321,533.1662 666,534.4922 C693.789,540.9752 702.471,538.7522 727.8,551.8922 C730.449,553.2662 733.086,554.8652 735.651,556.5902 " fill="none" id="parsers-to-opencritic" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="737.694,557.9972,736.2295,555.8936,735.2074,557.3753,737.694,557.9972" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="706.5" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="712.65" y="542.073">[HTTPS]</text></g><!--MD5=[c2223f96bbe5272e753c6bf7a05f93b0]
+link accounts to google--><g id="link_accounts_google"><path d="M713.583,422.9192 C716.355,424.9862 719.214,426.9152 722.1,428.5922 C753.963,447.1052 769.152,435.9482 800.7,454.9922 C806.679,458.6012 812.472,463.3472 817.611,468.1652 " fill="none" id="accounts-to-google" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="819.474,469.9412,818.3606,467.6324,817.1171,468.9338,819.474,469.9412" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="780.6" y="441.1512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="786.75" y="445.173">[HTTPS]</text></g><!--MD5=[0ac3d1a8dd36166c4038c1f6a479ffd1]
+link accounts to github--><g id="link_accounts_github"><path d="M712.257,422.9612 C715.395,425.1482 718.701,427.0892 722.1,428.5922 C757.659,444.2972 770.877,430.5062 809.1,437.5922 C838.293,443.0042 847.698,440.4782 873.6,454.9922 C879.876,458.5082 885.894,463.3382 891.174,468.2792 " fill="none" id="accounts-to-github" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="892.935,469.9562,891.8158,467.6503,890.5755,468.9548,892.935,469.9562" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="853.8" y="441.1512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="859.95" y="445.173">[HTTPS]</text></g><!--MD5=[5806d2714a6d29f5e7a72a52c466e4cc]
+link apis to trends--><g id="link_apis_trends"><path d="M195.927,517.3172 C190.44,523.2032 183.945,528.6842 176.7,532.0922 C166.434,536.9222 136.854,532.4222 125.7,534.4922 C101.532,538.9772 95.055,540.6392 73.2,551.8922 C72.105,552.4562 71.004,553.0502 69.909,553.6682 " fill="none" id="apis-to-trends" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="67.8,554.8862,70.3285,554.4657,69.4285,552.9068,67.8,554.8862" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="126" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="132.15" y="542.073">[HTTPS]</text></g><!--MD5=[30739149969ec8ce0d9d5611b4986970]
+link apis to moby--><g id="link_apis_moby"><path d="M194.652,517.3082 C189.363,522.9032 183.276,528.2522 176.7,532.0922 C172.566,534.5072 170.52,532.4342 166.2,534.4922 C154.884,539.8862 153.846,544.1342 144,551.8922 C142.941,552.7262 141.867,553.5752 140.778,554.4332 " fill="none" id="apis-to-moby" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="138.813,555.9842,141.2548,555.2047,140.1402,553.7913,138.813,555.9842" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="166.5" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="172.65" y="542.073">[HTTPS]</text></g><!--MD5=[7bc54fa7e8aec199cf5d397f45bc4ce3]
+link apis to igdb--><g id="link_apis_igdb"><path d="M204.039,517.2782 C199.995,527.4452 195.366,539.0702 191.205,549.5252 " fill="none" id="apis-to-igdb" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="190.272,551.8742,191.9946,549.9761,190.3218,549.3115,190.272,551.8742" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="197.4" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="203.55" y="542.073">[HTTPS]</text></g><!--MD5=[8582f023af901bde3e8b317b42a9770d]
+link apis to rawg--><g id="link_apis_rawg"><path d="M225.468,517.2782 C229.482,527.4452 234.069,539.0702 238.197,549.5252 " fill="none" id="apis-to-rawg" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="239.124,551.8742,239.0785,549.3114,237.4046,549.9732,239.124,551.8742" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="235.2" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="241.35" y="542.073">[HTTPS]</text></g><!--MD5=[a89352610fbf1a9ae072727669b2d8e7]
+link apis to ftg--><g id="link_apis_ftg"><path d="M247.653,517.1552 C261.372,528.3932 277.284,541.4282 291.045,552.6992 " fill="none" id="apis-to-ftg" style="stroke:#666666;stroke-width:0.3;"/><polygon fill="#666666" points="292.971,554.2802,291.6856,552.0626,290.5444,553.4545,292.971,554.2802" style="stroke:#666666;stroke-width:0.3;"/><text fill="#666666" font-family="sans-serif" font-size="3.6" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="276.3" y="538.0512">Запросы REST</text><text fill="#666666" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="13.5" x="282.45" y="542.073">[HTTPS]</text></g><rect fill="none" height="37.0453" id="_legend" rx="2.25" ry="2.25" style="stroke:none;stroke-width:0.3;" width="39.3" x="896.25" y="616.9078"/><text fill="#000000" font-family="sans-serif" font-size="4.2" font-weight="bold" lengthAdjust="spacing" textLength="15.9" x="897.75" y="622.81">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="1.2" x="913.65" y="622.81"> </text><rect fill="#08427B" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="623.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="13.2" x="898.95" y="627.5021">person</text><rect fill="#1168BD" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="628.3922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="13.2" x="898.95" y="632.1943">system</text><rect fill="#438DD5" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="633.0844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="17.7" x="898.95" y="636.8865">container</text><rect fill="#686868" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="637.7766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="29.4" x="898.95" y="641.5787">external person</text><rect fill="#999999" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="642.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="29.4" x="898.95" y="646.2709">external system</text><rect fill="#B3B3B3" height="4.6922" style="stroke:none;stroke-width:0.3;" width="36.3" x="897.75" y="647.1609"/><text fill="#FFFFFF" font-family="sans-serif" font-size="4.2" lengthAdjust="spacing" textLength="33.9" x="898.95" y="650.9631">external container</text><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="619.0078" y2="619.0078"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="623.7" y2="623.7"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="628.3922" y2="628.3922"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="633.0844" y2="633.0844"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="637.7766" y2="637.7766"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="642.4688" y2="642.4688"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="647.1609" y2="647.1609"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="934.05" y1="651.8531" y2="651.8531"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="897.75" x2="897.75" y1="619.0078" y2="651.8531"/><line style="stroke:#FFFFFF;stroke-width:0.3;" x1="934.05" x2="934.05" y1="619.0078" y2="651.8531"/><!--MD5=[3992b2439cb280b2baa693e23e9f09cc]
+@startuml Архитектурная диаграмма контейнеров системы "GameGenBulb"
+!include <c4/C4_Container.puml>
+!include <office/Users/mobile_user.puml>
+
+!define sprites https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master
+!define devicons sprites/devicons2
+!define favicons sprites/font-awesome-5
+
+!include devicons/mongodb.puml
+!include devicons/kotlin.puml
+!include devicons/python.puml
+!include devicons/google.puml
+!include devicons/github_original.puml
+!include favicons/android.puml
+!include favicons/database.puml
+!include favicons/gamepad.puml
+!include favicons/amilia.puml
+
+'LAYOUT_TOP_DOWN()
+LAYOUT_WITH_LEGEND()
+
+!$graphql = "Запросы GraphQL"
+!$rest = "Запросы REST"
+!$https = "HTTPS"
+!$ktor = "Kotlin, Ktor, Docker Container"
+!$mongodb = "MongoDB, Docker Container"
+!$mongowp = "MongoDB Wire Protocol"
+!$cr = "Чтение и запись"
+
+title Диаграмма контейнеров системы "GameGenBulb"
+
+Person(user, "Пользователь", "Пользователь мобильного приложения", $sprite="mobile_user")
+System(mobile, "Мобильное приложение для ОС Android", "Интерфейс, с которым взаимодействует пользователь", $sprite="android")
+
+System_Boundary(c1, "Серверная система") {
+    Container(gateway, "API-шлюз", $ktor, "Предоставляет функциональность микросервисов сервера клиенту посредством API", $sprite="kotlin")
+
+    Container(accounts, "Управление аутентификацией", $ktor, "Микросервис по обработке аутентификации пользователей в системе", $sprite="kotlin")
+    ContainerDb(accounts_db, "БД аккаунтов", $mongodb, "Хранение данных об аккаунтах и сессиях пользователей\n", $sprite="mongodb")
+
+    Container(roles, "Управление разрешениями", $ktor, "Микросервис по отслеживанию разрешений пользователей в системе", $sprite="kotlin")
+    ContainerDb(roles_db, "БД разрешений", $mongodb, "Хранение данных выданных пользователям разрешений\n", $sprite="mongodb")
+
+    Container(notifs, "Управление уведомлениями", $ktor, "Микросервис по отправке и подтверждению уведомлений пользователей системы", $sprite="kotlin")
+    ContainerDb(notifs_db, "БД уведомлений", $mongodb, "Хранение данных выданных пользователям уведомлений\n", $sprite="mongodb")
+
+    Container(fast_cards, "Управление ''быстрыми'' карточками", $ktor, "Микросервис по предоставлению ''быстрых'' карточек по запросу пользователей системы", $sprite="kotlin")
+    ContainerDb(fast_cards_db, "БД ''быстрых'' карточек", $mongodb, "Хранение данных о выдаче ''быстрых'' карточек пользователям системы, а также данных самих карточек\n", $sprite="mongodb")
+
+    Container(files, "Управление файлами", $ktor, "Микросервис по обработке различных файлов пользователей системы", $sprite="kotlin")
+    ContainerDb(files_db, "Файловое хранилище", "Ext4, Docker Container", "Хранение файлов, загружаемых системой по мере ее функционирования\n", $sprite="database")
+
+    Container(app_settings, "Управление настройками приложения", $ktor, "Микросервис по управлению настройками приложения соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(app_settings_db, "БД настроек приложения", $mongodb, "Хранение данных настроек приложения соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(user_settings, "Управление настройками пользователей", $ktor, "Микросервис по управлению настройками соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(user_settings_db, "БД настроек пользователей", $mongodb, "Хранение данных настроек соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(ideas, "Управление видеоигровыми идеями", $ktor, "Микросервис по управлению видеоигровыми идеями пользователей системы", $sprite="kotlin")
+    ContainerDb(ideas_db, "БД видеоигровых идей", $mongodb, "Хранение данных о видеоигровых идеях пользователей системы, а также об общих для идей характеристиках\n", $sprite="mongodb")
+
+    Container(idea_reports, "Управление анализом видеоигровых идей", $ktor, "Микросервис по управлению отчетами об анализах соответствующих видеоигровых идей", $sprite="kotlin")
+    ContainerDb(idea_reports_db, "БД анализов видеоигровых идей", $mongodb, "Хранение данных отчетов об анализе соответствующих видеоигровых идей, а также об общих критериев анализа\n", $sprite="mongodb")
+
+    Container(session_results, "Управление результатами сессий", $ktor, "Микросервис по управлению результатами проведенных сессий с участием соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(session_results_db, "БД результатов сессий", $mongodb, "Хранение данных результатов проведенных сессий с участием соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(sessions, "Управление проведением сессий", $ktor, "Микросервис по проведению различных сессий с участием соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(sessions_db, "БД проведения сессий", $mongodb, "Хранение данных о проводимых сессиях с участием соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(games, "Управление видеоиграми", $ktor, "Микросервис по управлению видеоиграми, а также общими для видеоигр характеристиками", $sprite="kotlin")
+    ContainerDb(games_db, "БД видеоигр", $mongodb, "Хранение данных о видеоиграх, собранных парсерами системы и сторонними API, а также об общих для видеоигр характеристиках\n", $sprite="mongodb")
+
+    Container(apis, "Управление общедоступными сторонними API", $ktor, "Микросервис по управлению обращением к сторонним API", $sprite="kotlin")
+    Container(parsers, "Управление собственными парсерами системы", $ktor, "Микросервис по управлению парсингом web-страниц сторонних систем", $sprite="kotlin")
+}
+
+System_Ext(epic, "Epic Games Store", "Платформа дистрибуции компьютерных игр", $sprite="gamepad")
+System_Ext(steam, "Steam", "Платформа дистрибуции компьютерных игр", $sprite="gamepad")
+System_Ext(itch, "itch.io", "Платформа дистрибуции видеоигр инди-разработчиков", $sprite="gamepad")
+System_Ext(jolt, "Game Jolt", "Социальная сеть для игроков в видеоигры, а также платформа дистрибуции видеоигр пользователей", $sprite="gamepad")
+
+System_Ext(metacritic, "Metacritic", "Самый известный агрегатор рецензий, собирающий отзывы об играх и от критиков, и от простых пользователей", $sprite="amilia")
+System_Ext(opencritic, "OpenCritic", "Агрегатор рецензий, прозрачно формирующий среднюю оценку об играх", $sprite="amilia")
+
+System_Ext(google, "Google", "Сервис авторизации OAuth 2.0 от сервисов Google", $sprite="google")
+System_Ext(github, "GitHub", "Сервис авторизации OAuth 2.0 от сервисов GitHub", $sprite="github_original")
+
+SystemDb_Ext(trends, "Google Trends", "Приложение, которое показывает, как часто ищут конкретный термин на разных территориях и языках\n", $sprite="database")
+SystemDb_Ext(moby, "MobyGames", "Самая старая, большая и точная БД видеоигр для любых платформ\n", $sprite="database")
+SystemDb_Ext(igdb, "IGDB API", "БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n", $sprite="database")
+SystemDb_Ext(rawg, "RAWG Video Games API", "БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n", $sprite="database")
+SystemDb_Ext(ftg, "FreeToGame API", "БД c информацией об играх, распространяющихся по модели ''free-to-play''\n", $sprite="database")
+
+Rel_R(user, mobile, "Использует, взаимодействуя с элементами интерфейса")
+Rel_D(mobile, gateway, $graphql, "HTTPS, WS")
+
+Rel_L(gateway, notifs, $graphql, $https)
+Rel_L(notifs, notifs_db, $cr, $mongowp)
+Rel_U(notifs, user, "Отправка на устройство", $https)
+
+Rel(gateway, accounts, $graphql, $https)
+Rel(accounts, accounts_db, $cr, $mongowp)
+
+Rel(roles, roles_db, $cr, $mongowp)
+Rel(roles, accounts, $graphql, $https)
+
+Rel(files, files_db, $cr, $mongowp)
+
+Rel(gateway, fast_cards, $graphql, $https)
+Rel(fast_cards, fast_cards_db, $cr, $mongowp)
+
+Rel(gateway, app_settings, $graphql, $https)
+Rel(app_settings, app_settings_db, $cr, $mongowp)
+
+Rel(gateway, user_settings, $graphql, $https)
+Rel(user_settings, user_settings_db, $cr, $mongowp)
+Rel(user_settings, accounts, $graphql, $https)
+
+Rel(gateway, ideas, $graphql, $https)
+Rel(ideas, ideas_db, $cr, $mongowp)
+
+Rel(gateway, idea_reports, $graphql, $https)
+Rel(idea_reports, idea_reports_db, $cr, $mongowp)
+Rel(idea_reports, ideas, $graphql, $https)
+
+Rel(gateway, session_results, $graphql, $https)
+Rel(session_results, session_results_db, $cr, $mongowp)
+
+Rel(idea_reports, files, $graphql, $https)
+Rel(session_results, files, $graphql, $https)
+
+Rel(gateway, sessions, $graphql, $https)
+Rel(sessions, sessions_db, $cr, $mongowp)
+Rel(sessions, roles, $graphql, $https)
+
+Rel(gateway, games, $graphql, $https)
+Rel(games, games_db, $cr, $mongowp)
+Rel(ideas, games, $graphql, $https)
+Rel(games, apis, $graphql, $https)
+Rel(games, parsers, $graphql, $https)
+
+Rel(parsers, epic, $rest, $https)
+Rel(parsers, steam, $rest, $https)
+Rel(parsers, itch, $rest, $https)
+Rel(parsers, jolt, $rest, $https)
+Rel(parsers, metacritic, $rest, $https)
+Rel(parsers, opencritic, $rest, $https)
+
+Rel(accounts, google, $rest, $https)
+Rel(accounts, github, $rest, $https)
+
+Rel_D(apis, trends, $rest, $https)
+Rel_D(apis, moby, $rest, $https)
+Rel_D(apis, igdb, $rest, $https)
+Rel_D(apis, rawg, $rest, $https)
+Rel_D(apis, ftg, $rest, $https)
+
+@enduml
+
+@startuml Архитектурная диаграмма контейнеров системы "GameGenBulb"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $mobile_user [48x45/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000169AAA850000000000000000000000000
+000000000000004ABBBBBBB9200000000000000000000000
+00000000000005ABBBBBBBBBA20000000000000000000000
+0000000000002BBBBBBBBBBBBA0000000000000000000000
+000000000000ABBBBBBBBBBBBB8000000000000000000000
+000000000004BBBBBBBBBBBBBBA100000000000000000000
+000000000007BBBBBBBBBBBBBBB400000000000000000000
+00000000000ABBBBBBBBBBBBBBB800000000000000000000
+00000000000BBBBBBBBBBBBBBBBA00000000000000000000
+00000000000BBBBBBBBBBBBBBBBA00000000000000000000
+00000000000ABBBBBBBBBBBBBBB900000000000000000000
+000000000008BBBBBBBBBBBBBBB600000000000000000000
+000000000005BBBBBBBBBBBBBBA200000000000000000000
+000000000001BBBBBBBBBBBBBBA000000000000000000000
+0000000000004BBBBBBBBBBBBA2000000000000000000000
+00000000000008BBBBBBBBBBB50000000000000000000000
+000000000000007ABBBBBBBA500000000000000000000000
+00000000000000039ABBBA82000000000000000000000000
+000000000000000000221000000000000000000000000000
+000000000389400000000000005982000000000000000000
+000000028ABBA7100000000017BBBA7103ABBBBBBBBBBA30
+0000006ABBBBBBA631000136ABBBBBBA04BBBBBBBBBBBB50
+000008BBBBBBBBBBBBBABBBBBBBBBBBA04B8888888888B50
+00004BBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+0000ABBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+0002BBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+0004BBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+0007BBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+0009BBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+000ABBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+002BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+003BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+004BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+005BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+006BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+007BBBBBBBBBBBBBBBBBBBBBBBBBBBBA04A0000000000B50
+008AAAAAAAAAAAAAAAAAAAAAAAAAAAAA04A0000000000B50
+0000000000000000000000000000000004A2222222222B50
+0000000000000000000000000000000004BBBBBBBBBBBB50
+0000000000000000000000000000000004BBBB8007BBBB50
+0000000000000000000000000000000004BBBBBBBBBBBB50
+000000000000000000000000000000000066666666666610
+000000000000000000000000000000000000000000000000
+}
+
+
+
+sprite $mongodb [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000005200000000000000000000000
+00000000000000000000001DB00000000000000000000000
+0000000000000000000001CFF50000000000000000000000
+000000000000000000001DFFFF3000000000000000000000
+00000000000000000000DFFFFFE200000000000000000000
+00000000000000000009FFFFFFFE10000000000000000000
+0000000000000000006FFFFFFFFFC0000000000000000000
+000000000000000001FFFFFFFFFFF7000000000000000000
+000000000000000009FFFFFFFFFFFF200000000000000000
+00000000000000002FFFFFFFFFFFFFB00000000000000000
+0000000000000000AFFFFFFFFFFFFFF30000000000000000
+0000000000000001FFFFFFFFFFFFFFFB0000000000000000
+0000000000000006FFFFFFFFFFFFFFFF2000000000000000
+000000000000000CFFFFFFFFFFFFFFFF8000000000000000
+000000000000000FFFFFFFFFFFFFFFFFD000000000000000
+000000000000004FFFFFFFFFFFFFFFFFF200000000000000
+000000000000008FFFFFFFFFFFFFFFFFF600000000000000
+00000000000000AFFFFFFFFFFFFFFFFFFA00000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000FFFFFFFFFFFFFFFFFFFF00000000000000
+00000000000000FFFFFFFFFFFFFFFFFFFF00000000000000
+00000000000000FFFFFFFFFFFFFFFFFFFF00000000000000
+00000000000000DFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+000000000000008FFFFFFFFFFFFFFFFFFA00000000000000
+000000000000004FFFFFFFFFFFFFFFFFF600000000000000
+000000000000000FFFFFFFFFFFFFFFFFF200000000000000
+0000000000000009FFFFFFFFFFFFFFFFD000000000000000
+0000000000000003FFFFFFFFFFFFFFFF7000000000000000
+0000000000000000BFFFFFFFFFFFFFFF1000000000000000
+00000000000000003FFFFFFFFFFFFFF80000000000000000
+000000000000000009FFFFFFFFFFFFE10000000000000000
+000000000000000000DFFFFFFFFFFF500000000000000000
+0000000000000000003FFFFFFFFFFA000000000000000000
+00000000000000000005FFFFFFFFB0000000000000000000
+000000000000000000006FFFFFFC00000000000000000000
+0000000000000000000006FFFFC100000000000000000000
+00000000000000000000004EFA0000000000000000000000
+00000000000000000000000AF20000000000000000000000
+000000000000000000000006F00000000000000000000000
+000000000000000000000004F00000000000000000000000
+000000000000000000000003F00000000000000000000000
+000000000000000000000002F00000000000000000000000
+000000000000000000000000100000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV2 MONGODB>> White
+sprite $kotlin [48x48/16] {
+FFFFFFFFFFFFFFFFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFF8
+FFFFFFFFFFFFFFFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFF80
+FFFFFFFFFFFFFFFFFFFF75FFFFFFFFFFFFFFFFFFFFFFF800
+FFFFFFFFFFFFFFFFFFF75FFFFFFFFFFFFFFFFFFFFFFF8000
+FFFFFFFFFFFFFFFFFF75FFFFFFFFFFFFFFFFFFFFFFF80000
+FFFFFFFFFFFFFFFFF75FFFFFFFFFFFFFFFFFFFFFFF800000
+FFFFFFFFFFFFFFFF65FFFFFFFFFFFFFFFFFFFFFFF8000000
+FFFFFFFFFFFFFFF66FFFFFFFFFFFFFFFFFFFFFFF80000000
+FFFFFFFFFFFFFF66FFFFFFFFFFFFFFFFFFFFFFF800000000
+FFFFFFFFFFFFF66FFFFFFFFFFFFFFFFFFFFFFF8000000000
+FFFFFFFFFFFF66FFFFFFFFFFFFFFFFFFFFFFF80000000000
+FFFFFFFFFFF56FFFFFFFFFFFFFFFFFFFFFFF800000000000
+FFFFFFFFFF57FFFFFFFFFFFFFFFFFFFFFFF8000000000000
+FFFFFFFFF57FFFFFFFFFFFFFFFFFFFFFFF80000000000000
+FFFFFFFF57FFFFFFFFFFFFFFFFFFFFFFF800000000000000
+FFFFFFF47FFFFFFFFFFFFFFFFFFFFFFF8000000000000000
+FFFFFF48FFFFFFFFFFFFFFFFFFFFFFF80000000000000000
+FFFFF48FFFFFFFFFFFFFFFFFFFFFFF800000000000000000
+FFFF48FFFFFFFFFFFFFFFFFFFFFFF8000000000000000000
+FFF48FFFFFFFFFFFFFFFFFFFFFFF80000000000000000000
+FF48FFFFFFFFFFFFFFFFFFFFFFF800000000000000000000
+F39FFFFFFFFFFFFFFFFFFFFFFF8000000000000000000000
+39FFFFFFFFFFFFFFFFFFFFFFF80000000000000000000000
+9FFFFFFFFFFFFFFFFFFFFFFF800000000000000000000000
+FFFFFFFFFFFFFFFFFFFFFFF8000000000000000000000000
+FFFFFFFFFFFFFFFFFFFFFF84B00000000000000000000000
+FFFFFFFFFFFFFFFFFFFFF84FFC0000000000000000000000
+FFFFFFFFFFFFFFFFFFFF84FFFFC100000000000000000000
+FFFFFFFFFFFFFFFFFFF84FFFFFFC10000000000000000000
+FFFFFFFFFFFFFFFFFF84FFFFFFFFD1000000000000000000
+FFFFFFFFFFFFFFFFF84FFFFFFFFFFD100000000000000000
+FFFFFFFFFFFFFFFF84FFFFFFFFFFFFD10000000000000000
+FFFFFFFFFFFFFFF84FFFFFFFFFFFFFFE2000000000000000
+FFFFFFFFFFFFFF84FFFFFFFFFFFFFFFFE200000000000000
+FFFFFFFFFFFFF84FFFFFFFFFFFFFFFFFFE20000000000000
+FFFFFFFFFFFF84FFFFFFFFFFFFFFFFFFFFE2000000000000
+FFFFFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFE300000000000
+FFFFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFFFF30000000000
+FFFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFF4000000000
+FFFFFFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFF400000000
+FFFFFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF40000000
+FFFFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+FFFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF500000
+FFFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF60000
+FFF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+FF84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600
+F84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70
+84FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7
+}
+
+
+skinparam folderBackgroundColor<<DEV2 KOTLIN>> White
+sprite $python [48x48/16] {
+000000000000000000000000000000000000000000000000
+00000000000000000479CDEEEDDB97300000000000000000
+0000000000000019FFFFFFFFFFFFFFFC3000000000000000
+00000000000000DFFFFFFFFFFFFFFFFFF500000000000000
+00000000000007FFD79FFFFFFFFFFFFFFF10000000000000
+0000000000000BFF1007FFFFFFFFFFFFFF80000000000000
+0000000000000CFC0003FFFFFFFFFFFFFFC0000000000000
+0000000000000EFF1007FFFFFFFFFFFFFFE0000000000000
+0000000000000EFFE79FFFFFFFFFFFFFFFE0000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFFE0000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFFE0000000000000
+000000000000034444444444FFFFFFFFFFE0000000000000
+000000013444444444444444FFFFFFFFFFE0244431000000
+000006DFFFFFFFFFFFFFFFFFFFFFFFFFFFE09FFFFFC20000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE09FFFFFFF2000
+000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE09FFFFFFFC000
+004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE09FFFFFFFF300
+00AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0AFFFFFFFF900
+00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0BFFFFFFFFE00
+02FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80EFFFFFFFFF10
+05FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF15FFFFFFFFFF40
+08FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF51EFFFFFFFFFF70
+09FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC31CFFFFFFFFFFF80
+0AFFFFFFFFFFFFFE95444444444443106EFFFFFFFFFFFFA0
+0AFFFFFFFFFFFF902899999999999ABFFFFFFFFFFFFFFFA0
+09FFFFFFFFFFF709FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF90
+07FFFFFFFFFFB09FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80
+04FFFFFFFFFF23FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50
+01FFFFFFFFFD09FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF10
+00DFFFFFFFFA0DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC00
+008FFFFFFFF90EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600
+002FFFFFFFF90EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF100
+0009FFFFFFF90EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000
+0000AFFFFFF90EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000
+000005BDDDD80EFFFFFFFFFFDDDDDDDDDDDDDDDDDB600000
+0000000000000EFFFFFFFFFF000000000000000000000000
+0000000000000EFFFFFFFFFF999999999980000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFFE0000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFFE0000000000000
+0000000000000EFFFFFFFFFFFFFFD43BFFE0000000000000
+0000000000000DFFFFFFFFFFFFFF4000FFD0000000000000
+0000000000000CFFFFFFFFFFFFFF2000EFC0000000000000
+00000000000006FFFFFFFFFFFFFF8005FF70000000000000
+00000000000000CFFFFFFFFFFFFFFDCFFC00000000000000
+000000000000000AFFFFFFFFFFFFFFFFA100000000000000
+00000000000000004BFFFFFFFFFFFFB40000000000000000
+000000000000000000158BDEEDB851000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV2 PYTHON>> White
+sprite $google [48x48/16] {
+0000000000000000000268AABAA862000000000000000000
+00000000000000005AFFFFFFFFFFFFFA5000000000000000
+000000000000007DFFFFFFFFFFFFFFFFFE81000000000000
+0000000000006EFFFFFFFFFFFFFFFFFFFFFE700000000000
+00000000002BFFFFFFFFFFFFFFFFFFFFFFFFFC2000000000
+0000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFF400000000
+000000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF10000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF400000000
+0000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4000000000
+000003FFFFFFFFFFFFFFFEBA89BEFFFFFFFFF50000000000
+00001EFFFFFFFFFFFFE83000000027EFFFFF500000000000
+00009FFFFFFFFFFFF800000000000007FFF5000000000000
+0003FFFFFFFFFFFD20000000000000002D50000000000000
+000CFFFFFFFFFFC100000000000000000000000000000000
+002FFFFFFFFFFD1000000000000000000000000000000000
+009FFFFFFFFFF20000000000000000000000000000000000
+00FFFFFFFFFF600000000000000000000000000000000000
+04FFFFFFFFFD000000000000000000000000000000000000
+08FFFFFFFFF6000000000000000000000000000000000000
+0CFFFFFFFFF0000000000000377777778888888889999970
+0FFFFFFFFFC00000000000008FFFFFFFFFFFFFFFFFFFFFE0
+1FFFFFFFFF800000000000008FFFFFFFFFFFFFFFFFFFFFF1
+2FFFFFFFFF600000000000008FFFFFFFFFFFFFFFFFFFFFF2
+3FFFFFFFFF500000000000008FFFFFFFFFFFFFFFFFFFFFF3
+3FFFFFFFFF500000000000008FFFFFFFFFFFFFFFFFFFFFF3
+2FFFFFFFFF600000000000008FFFFFFFFFFFFFFFFFFFFFF2
+1FFFFFFFFF800000000000008FFFFFFFFFFFFFFFFFFFFFF1
+0FFFFFFFFFC00000000000008FFFFFFFFFFFFFFFFFFFFFF0
+0CFFFFFFFFF00000000000006CCCCCCCCCCCCEFFFFFFFFF0
+09FFFFFFFFF60000000000000000000000000CFFFFFFFFC0
+05FFFFFFFFFD0000000000000000000000001FFFFFFFFF80
+00FFFFFFFFFF7000000000000000000000007FFFFFFFFF50
+00AFFFFFFFFFF20000000000000000000001EFFFFFFFFF10
+003FFFFFFFFFFD100000000000000000000AFFFFFFFFFB00
+000CFFFFFFFFFFC10000000000000000007FFFFFFFFFF500
+0004FFFFFFFFFFFD200000000000000008FFFFFFFFFFE000
+0000AFFFFFFFFFFFF800000000000004CFFFFFFFFFFF6000
+00001EFFFFFFFFFFFFE72000000005BFFFFFFFFFFFFD0000
+000004FFFFFFFFFFFFFFFDBA89BDFFFFFFFFFFFFFFF20000
+0000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9000000
+000000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA0000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000000
+00000000002DFFFFFFFFFFFFFFFFFFFFFFFFFF5000000000
+0000000000007FFFFFFFFFFFFFFFFFFFFFFFA10000000000
+000000000000018EFFFFFFFFFFFFFFFFFFA3000000000000
+00000000000000005AFFFFFFFFFFFFFC7200000000000000
+00000000000000000002589ABA9863000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV2 GOOGLE>> White
+sprite $github_original [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000001100000000000000000000000
+0000000000000000026ACFFFFFFCA6200000000000000000
+0000000000000006CFFFFFFFFFFFFFFC6000000000000000
+00000000000008EFFFFFFFFFFFFFFFFFFE70000000000000
+000000000005EFFFFFFFFFFFFFFFFFFFFFFE400000000000
+00000000009FFFFFFFFFFFFFFFFFFFFFFFFFFA0000000000
+000000001CFFFFFFFFFFFFFFFFFFFFFFFFFFFFC100000000
+00000001DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD10000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD1000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000000
+000007FFFFFF46AFFFFFFFFFFFFFFFFFFA64FFFFFF700000
+00002FFFFFFC00019FFFFFFEEFFFFFF81000CFFFFFF20000
+0000CFFFFFF80000028620000002682000008FFFFFFB0000
+0004FFFFFFF70000000000000000000000007FFFFFFF4000
+000CFFFFFFF70000000000000000000000007FFFFFFFB000
+002FFFFFFFFA000000000000000000000000AFFFFFFFF200
+008FFFFFFFFA000000000000000000000000AFFFFFFFF800
+00CFFFFFFFE10000000000000000000000001EFFFFFFFC00
+01FFFFFFFF6000000000000000000000000006FFFFFFFF10
+04FFFFFFFF0000000000000000000000000000FFFFFFFF40
+06FFFFFFFC0000000000000000000000000000CFFFFFFF60
+08FFFFFFFA0000000000000000000000000000AFFFFFFF80
+09FFFFFFF900000000000000000000000000009FFFFFFF90
+0AFFFFFFFA0000000000000000000000000000AFFFFFFFA0
+09FFFFFFFB0000000000000000000000000000BFFFFFFF90
+07FFFFFFFD0000000000000000000000000000DFFFFFFF80
+06FFFFFFFF1000000000000000000000000002FFFFFFFF60
+04FFFFFFFF6000000000000000000000000006FFFFFFFF40
+00FFFFFFFFD00000000000000000000000000DFFFFFFFF00
+00CFFFFFFFF70000000000000000000000007FFFFFFFFC00
+008FFFFFFFFF500000000000000000000005FFFFFFFFF800
+002FFFFFFFFFF9000000000000000000008FFFFFFFFFF200
+000BFFFB6AFFFFE710000000000000027EFFFFFFFFFFB000
+0005FFFC135FFFFFFDA5000000006ADFFFFFFFFFFFFF4000
+0000CFFFE235FFFFFFF2000000002FFFFFFFFFFFFFFC0000
+00002FFFFD069FFFFFB0000000000BFFFFFFFFFFFFF20000
+000008FFFF6077FFFE500000000007FFFFFFFFFFFF800000
+000000CFFFE0016446100000000006FFFFFFFFFFFC000000
+0000001DFFFB000110000000000005FFFFFFFFFFD1000000
+00000002EFFFD62002100000000005FFFFFFFFFE20000000
+000000001CFFFFFFFF500000000005FFFFFFFFD100000000
+0000000000BFFFFFFF500000000006FFFFFFFB0000000000
+000000000005EFFFFF600000000006FFFFFE600000000000
+00000000000019FFFF600000000006FFFF91000000000000
+0000000000000017EF300000000003FE7100000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV2 GITHUB_ORIGINAL>> White
+sprite $android [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000006D00000000000000000000000005D0000000000
+0000000003F8000000000000000000000000EC0000000000
+0000000000AF100000000000000000000008F20000000000
+00000000001FA0000000000000000000002F900000000000
+000000000008F300000001233210000000BF100000000000
+000000000000EC00159DFFFFFFFEB73004F7000000000000
+0000000000005F8AFFFFFFFFFFFFFFFD7DD0000000000000
+0000000000003FFFFFFFFFFFFFFFFFFFFFA0000000000000
+000000000009FFFFFFFFFFFFFFFFFFFFFFFD400000000000
+0000000001CFFFFFFFFFFFFFFFFFFFFFFFFFF70000000000
+000000003EFFFFFFFFFFFFFFFFFFFFFFFFFFFF9000000000
+00000002EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF900000000
+0000001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4000000
+000007FFFFFFFBDFFFFFFFFFFFFFFFFFFBDFFFFFFE100000
+00001FFFFFFF500BFFFFFFFFFFFFFFFF300CFFFFFF900000
+00009FFFFFFF1006FFFFFFFFFFFFFFFF0008FFFFFFF20000
+0001FFFFFFFF700CFFFFFFFFFFFFFFFF501DFFFFFFF90000
+0007FFFFFFFFFDEFFFFFFFFFFFFFFFFFFDFFFFFFFFFF0000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000
+002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000
+009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF100
+00BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF300
+005666666666666666666666666666666666666666666200
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 ANDROID>> White
+sprite $database [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000003579ABCCDCCBBA8641000000000000000
+0000000000159DFFFFFFFFFFFFFFFFFFFFB7300000000000
+000000004AFFFFFFFFFFFFFFFFFFFFFFFFFFFE8100000000
+0000002CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF70000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF300000
+000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE4000000
+00000004CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF910000000
+00000000028DFFFFFFFFFFFFFFFFFFFFFFFFB60000000000
+00001A100000158BDFFFFFFFFFFFFFFCA740000004800000
+00001FF930000000001244555443200000000005CFB00000
+00001FFFFD840000000000000000000000026AFFFFB00000
+00001FFFFFFFFDB864210000000112579CEFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFEEFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000000
+0000002CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000000
+000000004AFFFFFFFFFFFFFFFFFFFFFFFFFFFE8100000000
+0000020000159DFFFFFFFFFFFFFFFFFFFFC7300000300000
+00001F9100000003679BBCCDDCCBA864200000004CB00000
+00001FFFB500000000000000000000000000027DFFB00000
+00001FFFFFFC85300000000000000000146AEFFFFFB00000
+00001FFFFFFFFFFFECA9877667889ADFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF300000
+000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE4000000
+00000004CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF910000000
+00000000028DFFFFFFFFFFFFFFFFFFFFFFFFB60000000000
+000000000000158BDFFFFFFFFFFFFFFCA740000000000000
+000000000000000000124455544320000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 DATABASE>> White
+sprite $gamepad [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000016BDFFFFFFFFFFFFFFFFFFFFFFFEC83000000000
+00000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB30000000
+000001CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000000
+00001DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+0000CFFFFFFFDEFFFFFFFFFFFFFFFFFFFFFFFEFFFFF40000
+0006FFFFFFF7008FFFFFFFFFFFFFFFFFFFFE4008FFFE0000
+000EFFFFFFF5006FFFFFFFFFFFFFFFFFFFF60000CFFF6000
+004FFFFFFFF5006FFFFFFFFFFFFFFFFFFFF200008FFFC000
+009FFFFFFFF5006FFFFFFFFFFFFFFFFFFFF50000BFFFF100
+00BFFFF633310013337FFFFFFFFFFFFFFFFD2006FFFFF300
+00CFFFF000000000001FFFFFFFFFFFFFFFFFFCEFFFFFF500
+00CFFFF000000000002FFFFFFFFFFFFF969FFFFFFFFFF400
+00AFFFFC9993004999CFFFFFFFFFFFF50006FFFFFFFFF200
+007FFFFFFFF5006FFFFFFFFFFFFFFFE00000EFFFFFFFF000
+002FFFFFFFF5006FFFFFFFFFFFFFFFD00000EFFFFFFFA000
+000BFFFFFFF5006FFFFFFFFFFFFFFFF40004FFFFFFFF3000
+0003FFFFFFFB44CFFFFFFFFFFFFFFFFF848FFFFFFFFB0000
+00007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000
+000009FFFFFFFFFFFFFF9666666DFFFFFFFFFFFFFE200000
+0000006FFFFFFFFFFFF500000001BFFFFFFFFFFFC1000000
+000000019FFFFFFFF9100000000004CFFFFFFFD500000000
+000000000047987400000000000000016898620000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 GAMEPAD>> White
+sprite $amilia [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000121000000000000000000000
+00000000000000000269CEFFFFFFFDA74000000000000000
+0000000000000028DFFFFFFFFFFFFFFFFE92000000000000
+0000000000003BFFFFFFFFFFFFFFFFFFFFFF800000000000
+00000000001BFFFFFFFFFFFFFFFFFFFFFFFFFD1000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFD100000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000000
+000000000EFFFFFFFFFB74100139FFFFFFFFFFFF40000000
+000000000BFFFFFF9300000000006FFFFFFFFFFFA0000000
+0000000007FFFE610000000000000EFFFFFFFFFFF0000000
+0000000002FF80000000000000000BFFFFFFFFFFF2000000
+00000000001100000000000000000AFFFFFFFFFFF4000000
+00000000000000000000000000000AFFFFFFFFFFF5000000
+000000000000000000000000000009FFFFFFFFFFF5000000
+000000000000000000000000000009FFFFFFFFFFF5000000
+000000000000000000000000000009FFFFFFFFFFF5000000
+00000000000000000000000000247DFFFFFFFFFFF5000000
+00000000000000000000358BDFFFFFFFFFFFFFFFF5000000
+00000000000000037ADFFFFFFFFFFFFFFFFFFFFFF5000000
+0000000000059CFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000000004BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+00000005FFFFFFFFFFFFFFFFFEA85BFFFFFFFFFFF5000000
+0000000EFFFFFFFFFFFFFFB6200009FFFFFFFFFFF5000000
+0000003FFFFFFFFFFFFE7100000009FFFFFFFFFFF5000000
+0000007FFFFFFFFFFFA00000000009FFFFFFFFFFF5000000
+0000009FFFFFFFFFFF100000000009FFFFFFFFFFF5000000
+000000AFFFFFFFFFFC000000000009FFFFFFFFFFF5000000
+000000BFFFFFFFFFFB000000000009FFFFFFFFFFF5000000
+000000CFFFFFFFFFFC000000000009FFFFFFFFFFF5000000
+000000BFFFFFFFFFFE000000000009FFFFFFFFFFF5000000
+000000AFFFFFFFFFFF60000000004EFFFFFFFFFFF5000000
+0000007FFFFFFFFFFFF71000016CFFFFFFFFFFFFF5000000
+0000002FFFFFFFFFFFFFFDBCEFFFFFFFFFFFFFFFF5000000
+0000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+00000002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000000005FFFFFFFFFFFFFFFFFFFA7FFFFFFFFFFF5000000
+0000000005EFFFFFFFFFFFFFFE8204FFFFFFFFFFF5000000
+000000000019FFFFFFFFFFC8300002FFFFFFFFFFF4000000
+0000000000000479A9864000000000011223322220000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 AMILIA>> White
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+
+title Диаграмма контейнеров системы "GameGenBulb"
+
+rectangle "<$mobile_user>\n==Пользователь\n\n Пользователь мобильного приложения" <<person>> as user 
+rectangle "<$android>\n==Мобильное приложение для ОС Android\n\n Интерфейс, с которым взаимодействует пользователь" <<system>> as mobile 
+
+rectangle "==Серверная система\n<size:12>[System]</size>" <<boundary>> as c1  {
+    rectangle "<$kotlin>\n==API-шлюз\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Предоставляет функциональность микросервисов сервера клиенту посредством API" <<container>> as gateway 
+
+    rectangle "<$kotlin>\n==Управление аутентификацией\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по обработке аутентификации пользователей в системе" <<container>> as accounts 
+    database "<$mongodb>\n==БД аккаунтов\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных об аккаунтах и сессиях пользователей\n" <<container>> as accounts_db 
+
+    rectangle "<$kotlin>\n==Управление разрешениями\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по отслеживанию разрешений пользователей в системе" <<container>> as roles 
+    database "<$mongodb>\n==БД разрешений\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных выданных пользователям разрешений\n" <<container>> as roles_db 
+
+    rectangle "<$kotlin>\n==Управление уведомлениями\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по отправке и подтверждению уведомлений пользователей системы" <<container>> as notifs 
+    database "<$mongodb>\n==БД уведомлений\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных выданных пользователям уведомлений\n" <<container>> as notifs_db 
+
+    rectangle "<$kotlin>\n==Управление ''быстрыми'' карточками\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по предоставлению ''быстрых'' карточек по запросу пользователей системы" <<container>> as fast_cards 
+    database "<$mongodb>\n==БД ''быстрых'' карточек\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных о выдаче ''быстрых'' карточек пользователям системы, а также данных самих карточек\n" <<container>> as fast_cards_db 
+
+    rectangle "<$kotlin>\n==Управление файлами\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по обработке различных файлов пользователей системы" <<container>> as files 
+    database "<$database>\n==Файловое хранилище\n//<size:12>[Ext4, Docker Container]</size>//\n\n Хранение файлов, загружаемых системой по мере ее функционирования\n" <<container>> as files_db 
+
+    rectangle "<$kotlin>\n==Управление настройками приложения\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению настройками приложения соответствующих пользователей системы" <<container>> as app_settings 
+    database "<$mongodb>\n==БД настроек приложения\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных настроек приложения соответствующих пользователей системы\n" <<container>> as app_settings_db 
+
+    rectangle "<$kotlin>\n==Управление настройками пользователей\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению настройками соответствующих пользователей системы" <<container>> as user_settings 
+    database "<$mongodb>\n==БД настроек пользователей\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных настроек соответствующих пользователей системы\n" <<container>> as user_settings_db 
+
+    rectangle "<$kotlin>\n==Управление видеоигровыми идеями\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению видеоигровыми идеями пользователей системы" <<container>> as ideas 
+    database "<$mongodb>\n==БД видеоигровых идей\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных о видеоигровых идеях пользователей системы, а также об общих для идей характеристиках\n" <<container>> as ideas_db 
+
+    rectangle "<$kotlin>\n==Управление анализом видеоигровых идей\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению отчетами об анализах соответствующих видеоигровых идей" <<container>> as idea_reports 
+    database "<$mongodb>\n==БД анализов видеоигровых идей\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных отчетов об анализе соответствующих видеоигровых идей, а также об общих критериев анализа\n" <<container>> as idea_reports_db 
+
+    rectangle "<$kotlin>\n==Управление результатами сессий\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению результатами проведенных сессий с участием соответствующих пользователей системы" <<container>> as session_results 
+    database "<$mongodb>\n==БД результатов сессий\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных результатов проведенных сессий с участием соответствующих пользователей системы\n" <<container>> as session_results_db 
+
+    rectangle "<$kotlin>\n==Управление проведением сессий\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по проведению различных сессий с участием соответствующих пользователей системы" <<container>> as sessions 
+    database "<$mongodb>\n==БД проведения сессий\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных о проводимых сессиях с участием соответствующих пользователей системы\n" <<container>> as sessions_db 
+
+    rectangle "<$kotlin>\n==Управление видеоиграми\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению видеоиграми, а также общими для видеоигр характеристиками" <<container>> as games 
+    database "<$mongodb>\n==БД видеоигр\n//<size:12>[MongoDB, Docker Container]</size>//\n\n Хранение данных о видеоиграх, собранных парсерами системы и сторонними API, а также об общих для видеоигр характеристиках\n" <<container>> as games_db 
+
+    rectangle "<$kotlin>\n==Управление общедоступными сторонними API\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению обращением к сторонним API" <<container>> as apis 
+    rectangle "<$kotlin>\n==Управление собственными парсерами системы\n//<size:12>[Kotlin, Ktor, Docker Container]</size>//\n\n Микросервис по управлению парсингом web-страниц сторонних систем" <<container>> as parsers 
+}
+
+rectangle "<$gamepad>\n==Epic Games Store\n\n Платформа дистрибуции компьютерных игр" <<external_system>> as epic 
+rectangle "<$gamepad>\n==Steam\n\n Платформа дистрибуции компьютерных игр" <<external_system>> as steam 
+rectangle "<$gamepad>\n==itch.io\n\n Платформа дистрибуции видеоигр инди-разработчиков" <<external_system>> as itch 
+rectangle "<$gamepad>\n==Game Jolt\n\n Социальная сеть для игроков в видеоигры, а также платформа дистрибуции видеоигр пользователей" <<external_system>> as jolt 
+
+rectangle "<$amilia>\n==Metacritic\n\n Самый известный агрегатор рецензий, собирающий отзывы об играх и от критиков, и от простых пользователей" <<external_system>> as metacritic 
+rectangle "<$amilia>\n==OpenCritic\n\n Агрегатор рецензий, прозрачно формирующий среднюю оценку об играх" <<external_system>> as opencritic 
+
+rectangle "<$google>\n==Google\n\n Сервис авторизации OAuth 2.0 от сервисов Google" <<external_system>> as google 
+rectangle "<$github_original>\n==GitHub\n\n Сервис авторизации OAuth 2.0 от сервисов GitHub" <<external_system>> as github 
+
+database "<$database>\n==Google Trends\n\n Приложение, которое показывает, как часто ищут конкретный термин на разных территориях и языках\n" <<external_system>> as trends 
+database "<$database>\n==MobyGames\n\n Самая старая, большая и точная БД видеоигр для любых платформ\n" <<external_system>> as moby 
+database "<$database>\n==IGDB API\n\n БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n" <<external_system>> as igdb 
+database "<$database>\n==RAWG Video Games API\n\n БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n" <<external_system>> as rawg 
+database "<$database>\n==FreeToGame API\n\n БД c информацией об играх, распространяющихся по модели ''free-to-play''\n" <<external_system>> as ftg 
+
+user -RIGHT->> mobile : **Использует, взаимодействуя с элементами интерфейса**
+mobile -DOWN->> gateway : **Запросы GraphQL**\n//<size:12>[HTTPS, WS]</size>//
+
+gateway -LEFT->> notifs : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+notifs -LEFT->> notifs_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+notifs -UP->> user : **Отправка на устройство**\n//<size:12>[HTTPS]</size>//
+
+gateway - ->> accounts : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+accounts - ->> accounts_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+roles - ->> roles_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+roles - ->> accounts : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+files - ->> files_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+gateway - ->> fast_cards : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+fast_cards - ->> fast_cards_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+gateway - ->> app_settings : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+app_settings - ->> app_settings_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+gateway - ->> user_settings : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+user_settings - ->> user_settings_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+user_settings - ->> accounts : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+gateway - ->> ideas : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+ideas - ->> ideas_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+gateway - ->> idea_reports : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+idea_reports - ->> idea_reports_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+idea_reports - ->> ideas : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+gateway - ->> session_results : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+session_results - ->> session_results_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+
+idea_reports - ->> files : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+session_results - ->> files : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+gateway - ->> sessions : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+sessions - ->> sessions_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+sessions - ->> roles : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+gateway - ->> games : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+games - ->> games_db : **Чтение и запись**\n//<size:12>[MongoDB Wire Protocol]</size>//
+ideas - ->> games : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+games - ->> apis : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+games - ->> parsers : **Запросы GraphQL**\n//<size:12>[HTTPS]</size>//
+
+parsers - ->> epic : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+parsers - ->> steam : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+parsers - ->> itch : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+parsers - ->> jolt : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+parsers - ->> metacritic : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+parsers - ->> opencritic : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+
+accounts - ->> google : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+accounts - ->> github : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+
+apis -DOWN->> trends : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+apis -DOWN->> moby : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+apis -DOWN->> igdb : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+apis -DOWN->> rawg : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+apis -DOWN->> ftg : **Запросы REST**\n//<size:12>[HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 21:12:26 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

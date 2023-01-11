@@ -1,0 +1,159 @@
+@startuml Архитектурная диаграмма контейнеров системы "GameGenBulb"
+!include <c4/C4_Container.puml>
+!include <office/Users/mobile_user.puml>
+
+!define sprites https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master
+!define devicons sprites/devicons2
+!define favicons sprites/font-awesome-5
+
+!include devicons/mongodb.puml
+!include devicons/kotlin.puml
+!include devicons/python.puml
+!include devicons/google.puml
+!include devicons/github_original.puml
+!include favicons/android.puml
+!include favicons/database.puml
+!include favicons/gamepad.puml
+!include favicons/amilia.puml
+
+'LAYOUT_TOP_DOWN()
+LAYOUT_WITH_LEGEND()
+
+!$graphql = "Запросы GraphQL"
+!$rest = "Запросы REST"
+!$https = "HTTPS"
+!$ktor = "Kotlin, Ktor, Docker Container"
+!$mongodb = "MongoDB, Docker Container"
+!$mongowp = "MongoDB Wire Protocol"
+!$cr = "Чтение и запись"
+
+title Диаграмма контейнеров системы "GameGenBulb"
+
+Person(user, "Пользователь", "Пользователь мобильного приложения", $sprite="mobile_user")
+System(mobile, "Мобильное приложение для ОС Android", "Интерфейс, с которым взаимодействует пользователь", $sprite="android")
+
+System_Boundary(c1, "Серверная система") {
+    Container(gateway, "API-шлюз", $ktor, "Предоставляет функциональность микросервисов сервера клиенту посредством API", $sprite="kotlin")
+
+    Container(accounts, "Управление аутентификацией", $ktor, "Микросервис по обработке аутентификации пользователей в системе", $sprite="kotlin")
+    ContainerDb(accounts_db, "БД аккаунтов", $mongodb, "Хранение данных об аккаунтах и сессиях пользователей\n", $sprite="mongodb")
+
+    Container(roles, "Управление разрешениями", $ktor, "Микросервис по отслеживанию разрешений пользователей в системе", $sprite="kotlin")
+    ContainerDb(roles_db, "БД разрешений", $mongodb, "Хранение данных выданных пользователям разрешений\n", $sprite="mongodb")
+
+    Container(notifs, "Управление уведомлениями", $ktor, "Микросервис по отправке и подтверждению уведомлений пользователей системы", $sprite="kotlin")
+    ContainerDb(notifs_db, "БД уведомлений", $mongodb, "Хранение данных выданных пользователям уведомлений\n", $sprite="mongodb")
+
+    Container(fast_cards, "Управление ''быстрыми'' карточками", $ktor, "Микросервис по предоставлению ''быстрых'' карточек по запросу пользователей системы", $sprite="kotlin")
+    ContainerDb(fast_cards_db, "БД ''быстрых'' карточек", $mongodb, "Хранение данных о выдаче ''быстрых'' карточек пользователям системы, а также данных самих карточек\n", $sprite="mongodb")
+
+    Container(files, "Управление файлами", $ktor, "Микросервис по обработке различных файлов пользователей системы", $sprite="kotlin")
+    ContainerDb(files_db, "Файловое хранилище", "Ext4, Docker Container", "Хранение файлов, загружаемых системой по мере ее функционирования\n", $sprite="database")
+
+    Container(app_settings, "Управление настройками приложения", $ktor, "Микросервис по управлению настройками приложения соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(app_settings_db, "БД настроек приложения", $mongodb, "Хранение данных настроек приложения соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(user_settings, "Управление настройками пользователей", $ktor, "Микросервис по управлению настройками соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(user_settings_db, "БД настроек пользователей", $mongodb, "Хранение данных настроек соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(ideas, "Управление видеоигровыми идеями", $ktor, "Микросервис по управлению видеоигровыми идеями пользователей системы", $sprite="kotlin")
+    ContainerDb(ideas_db, "БД видеоигровых идей", $mongodb, "Хранение данных о видеоигровых идеях пользователей системы, а также об общих для идей характеристиках\n", $sprite="mongodb")
+
+    Container(idea_reports, "Управление анализом видеоигровых идей", $ktor, "Микросервис по управлению отчетами об анализах соответствующих видеоигровых идей", $sprite="kotlin")
+    ContainerDb(idea_reports_db, "БД анализов видеоигровых идей", $mongodb, "Хранение данных отчетов об анализе соответствующих видеоигровых идей, а также об общих критериев анализа\n", $sprite="mongodb")
+
+    Container(session_results, "Управление результатами сессий", $ktor, "Микросервис по управлению результатами проведенных сессий с участием соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(session_results_db, "БД результатов сессий", $mongodb, "Хранение данных результатов проведенных сессий с участием соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(sessions, "Управление проведением сессий", $ktor, "Микросервис по проведению различных сессий с участием соответствующих пользователей системы", $sprite="kotlin")
+    ContainerDb(sessions_db, "БД проведения сессий", $mongodb, "Хранение данных о проводимых сессиях с участием соответствующих пользователей системы\n", $sprite="mongodb")
+
+    Container(games, "Управление видеоиграми", $ktor, "Микросервис по управлению видеоиграми, а также общими для видеоигр характеристиками", $sprite="kotlin")
+    ContainerDb(games_db, "БД видеоигр", $mongodb, "Хранение данных о видеоиграх, собранных парсерами системы и сторонними API, а также об общих для видеоигр характеристиках\n", $sprite="mongodb")
+
+    Container(apis, "Управление общедоступными сторонними API", $ktor, "Микросервис по управлению обращением к сторонним API", $sprite="kotlin")
+    Container(parsers, "Управление собственными парсерами системы", $ktor, "Микросервис по управлению парсингом web-страниц сторонних систем", $sprite="kotlin")
+}
+
+System_Ext(epic, "Epic Games Store", "Платформа дистрибуции компьютерных игр", $sprite="gamepad")
+System_Ext(steam, "Steam", "Платформа дистрибуции компьютерных игр", $sprite="gamepad")
+System_Ext(itch, "itch.io", "Платформа дистрибуции видеоигр инди-разработчиков", $sprite="gamepad")
+System_Ext(jolt, "Game Jolt", "Социальная сеть для игроков в видеоигры, а также платформа дистрибуции видеоигр пользователей", $sprite="gamepad")
+
+System_Ext(metacritic, "Metacritic", "Самый известный агрегатор рецензий, собирающий отзывы об играх и от критиков, и от простых пользователей", $sprite="amilia")
+System_Ext(opencritic, "OpenCritic", "Агрегатор рецензий, прозрачно формирующий среднюю оценку об играх", $sprite="amilia")
+
+System_Ext(google, "Google", "Сервис авторизации OAuth 2.0 от сервисов Google", $sprite="google")
+System_Ext(github, "GitHub", "Сервис авторизации OAuth 2.0 от сервисов GitHub", $sprite="github_original")
+
+SystemDb_Ext(trends, "Google Trends", "Приложение, которое показывает, как часто ищут конкретный термин на разных территориях и языках\n", $sprite="database")
+SystemDb_Ext(moby, "MobyGames", "Самая старая, большая и точная БД видеоигр для любых платформ\n", $sprite="database")
+SystemDb_Ext(igdb, "IGDB API", "БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n", $sprite="database")
+SystemDb_Ext(rawg, "RAWG Video Games API", "БД видеоигр, которая содержит историю игры, а также информацию о ее разработчиках и издателях\n", $sprite="database")
+SystemDb_Ext(ftg, "FreeToGame API", "БД c информацией об играх, распространяющихся по модели ''free-to-play''\n", $sprite="database")
+
+Rel_R(user, mobile, "Использует, взаимодействуя с элементами интерфейса")
+Rel_D(mobile, gateway, $graphql, "HTTPS, WS")
+
+Rel_L(gateway, notifs, $graphql, $https)
+Rel_L(notifs, notifs_db, $cr, $mongowp)
+Rel_U(notifs, user, "Отправка на устройство", $https)
+
+Rel(gateway, accounts, $graphql, $https)
+Rel(accounts, accounts_db, $cr, $mongowp)
+
+Rel(roles, roles_db, $cr, $mongowp)
+Rel(roles, accounts, $graphql, $https)
+
+Rel(files, files_db, $cr, $mongowp)
+
+Rel(gateway, fast_cards, $graphql, $https)
+Rel(fast_cards, fast_cards_db, $cr, $mongowp)
+
+Rel(gateway, app_settings, $graphql, $https)
+Rel(app_settings, app_settings_db, $cr, $mongowp)
+
+Rel(gateway, user_settings, $graphql, $https)
+Rel(user_settings, user_settings_db, $cr, $mongowp)
+Rel(user_settings, accounts, $graphql, $https)
+
+Rel(gateway, ideas, $graphql, $https)
+Rel(ideas, ideas_db, $cr, $mongowp)
+
+Rel(gateway, idea_reports, $graphql, $https)
+Rel(idea_reports, idea_reports_db, $cr, $mongowp)
+Rel(idea_reports, ideas, $graphql, $https)
+
+Rel(gateway, session_results, $graphql, $https)
+Rel(session_results, session_results_db, $cr, $mongowp)
+
+Rel(idea_reports, files, $graphql, $https)
+Rel(session_results, files, $graphql, $https)
+
+Rel(gateway, sessions, $graphql, $https)
+Rel(sessions, sessions_db, $cr, $mongowp)
+Rel(sessions, roles, $graphql, $https)
+
+Rel(gateway, games, $graphql, $https)
+Rel(games, games_db, $cr, $mongowp)
+Rel(ideas, games, $graphql, $https)
+Rel(games, apis, $graphql, $https)
+Rel(games, parsers, $graphql, $https)
+
+Rel(parsers, epic, $rest, $https)
+Rel(parsers, steam, $rest, $https)
+Rel(parsers, itch, $rest, $https)
+Rel(parsers, jolt, $rest, $https)
+Rel(parsers, metacritic, $rest, $https)
+Rel(parsers, opencritic, $rest, $https)
+
+Rel(accounts, google, $rest, $https)
+Rel(accounts, github, $rest, $https)
+
+Rel_D(apis, trends, $rest, $https)
+Rel_D(apis, moby, $rest, $https)
+Rel_D(apis, igdb, $rest, $https)
+Rel_D(apis, rawg, $rest, $https)
+Rel_D(apis, ftg, $rest, $https)
+
+@enduml
